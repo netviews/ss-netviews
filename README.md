@@ -1,7 +1,6 @@
 # ss-netviews
 ## Mininet Installation
 ```
-{
 $  git clone https://github.com/mininet/mininet
 $  cd mininet
 ~/mininet$    git tag (optional)
@@ -9,5 +8,5 @@ $  cd mininet
 ~/mininet$    ./util/install.sh -fnv
 ~/mininet$    sudo apt install net-tools
 ( -fnv: OpenFLow, Dependencies/Core files, OVS Switch )
-}
+
 ```
