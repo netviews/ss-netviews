@@ -76,14 +76,51 @@ app activate fwd
 | Cisco | topo-cisco | 
 | Ministanford | topo-ministanford-[]host[]server|
 
-## Getting Netviews Application Ready in ONOS:
+## Running Network Environment
+### STEP 01: Getting Netviews Application Ready in ONOS:
 
-1. If no modifications to the onos application code are needed, skip to step 5.
-2. Go to the netviews-code/ONOS_Apps directory
+1. If no modifications to the onos application code are needed, skip to STEP 2.
+2. Go to the netviews-code/ONOS_Apps directory, to chnage and update coorespoding forwarding applications.
 3. Change the paths of policy and identity files in the IntentReactiveForwarding [Line 167 and 168], netviews-code/ONOS_Apps/nifwd_combined/app/src/main/java/org/onosproject/nifwd_combined/IntentReactiveForwarding.java, to your local paths
 4. Run onos_setup to move files to the $ONOS_ROOT directory (see [README](https://github.com/netviews/ss-netviews/blob/master/ONOS_Apps/README)).
-5. Build ONOS and activate cooresponding forwarding application.
+```
+cd netviews-code/ONOS_Apps
+./onos_setup
+```
+### STEP 02: Get ONOS Ready
+1. Build and run ONOS as normal to ensure proper compilation and startup:
+```
+cd onos
+bazel run onos-local -- clean debug
+```
+2. From another terminal, run the ONOS CLI and activate the desired application (assuming STEP 01 is completed successfully):
+```
+$ONOS_ROOT/tools/test/bin/onos localhost
+app activate nifwd_combined [for nifwd application, assuming ]
+app activate ifwd [for ifwd application]
+app activate fwd [for reactive forwarding application]
+```
+
+### STEP 03: Get Mininet Ready
+1. 
+		sudo ./just_run_mininet_script -t ../topology-json/demo-topo-ref/topo-ref.json -c run  -d ./testing -e just_run_without_experiment -a org.onosproject.nifwd_combined
+
+At this point you have access to the ONOS server and application logs on terminal 1, the ONOS CLI for debugging on terminal 2, and the application output on terminal 3.
+Use tcpdump, Wireshark, or tshark to capture and analyze packets and network behavior.
 
 
+### Running Experiments
 
+1. Build and run ONOS as normal to ensure proper compilation and startup:
+```	
+bazel run onos-local -- clean debug
+```
+2. Stop ONOS and kill ONOS processes:
+```
+pkill -f onos
+```
+3. In netviews-code/experiments define experiment files and an experiment list, then call run_experiment_set to begin (see examples in the experiments directory).
+4. After experiments are complete, use iperf3_to_csv (with wildcard) and mtr_to_csv (with separate flags per file) to create parsed files.
+5. Compile parsed files based on desired figures (reference some of the “combined” csv files in the repo for formatting examples).
+6. Run box_plot_throughput and bar_plot_latency on the compiled files to create figures. 
 
