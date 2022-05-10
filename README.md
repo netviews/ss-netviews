@@ -7,7 +7,7 @@ R. Basnet, S. Mukherjee, V. M. Pagadala, and I. Ray. 2018. An efficient implemen
 The implementation is in [here](https://github.com/netviews/ss-netviews/tree/master/random-graph-generation)
 To run and generate policy graph:
 ```
-    python randomPolicyGraph.py AlgorithmNo UserCount ObjectCount Height
+python randomPolicyGraph.py AlgorithmNo UserCount ObjectCount Height
 ```
 To generate policy graph useing algorithm one, two user, one object and one height:
 ```
@@ -17,8 +17,8 @@ python randomPolicyGraph.py 1 2 1 1
 ## Environment Setup
 ### Mininet Installation
 ```
-$  git clone https://github.com/mininet/mininet
-$  cd mininet
+$    git clone https://github.com/mininet/mininet
+$    cd mininet
 ~/mininet$    git tag (optional)
 ~/mininet$    git checkout -b 2.3.0d6
 ~/mininet$    ./util/install.sh -fnv
