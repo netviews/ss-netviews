@@ -14,6 +14,12 @@ To generate policy graph useing algorithm one, two user, one object and one heig
 python randomPolicyGraph.py 1 2 1 1
 ```
 
+## Attack Graph Generation
+Attack graph visualizing possible reconnaissance and lateral movement from a compromised host. [Here](https://github.com/netviews/ss-netviews), we use similar technique as Lippmann et al.
+```
+Richard Lippmann, Kyle Ingols, Chris Scott, Keith Piwowarski, Kendra Kratkiewicz, Mike Artz, and Robert Cunningham. 2006. Validating and Restor- ing Defense in Depth Using Attack Graphs. In Proceedings of the IEEE Military Communications conference (MILCOM).
+```
+
 ## Environment Setup
 ### Mininet Installation
 ```
