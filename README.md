@@ -74,6 +74,6 @@ app activate fwd
 | ----------- | ----------- | 
 | Reference Topology | topo-ref | 
 | Cisco | topo-cisco | 
-| Ministanford | topo-ministanford-*host*server|
+| Ministanford | topo-ministanford-[]host[]server|
 
 
