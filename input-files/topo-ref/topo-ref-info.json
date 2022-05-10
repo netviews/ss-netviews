@@ -1,0 +1,247 @@
+[
+  {
+    "Description": "Main switch (first switch on the inside)",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000001",
+    "Type": "Switch",
+    "ID": "1",
+    "Name": "s1"
+  },
+  {
+    "Description": "Mesh switch connected to Main switch",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000002",
+    "Type": "Switch",
+    "ID": "2",
+    "Name": "s2"
+  },
+  {
+    "Description": "Mesh switch connected to Main Dev switch",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000003",
+    "Type": "Switch",
+    "ID": "3",
+    "Name": "s3"
+  },
+  {
+    "Description": "Mesh switch connected to HR Floor",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000004",
+    "Type": "Switch",
+    "ID": "4",
+    "Name": "s4"
+  },
+  {
+    "Description": "Mesh switch connected to Server Farm",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000005",
+    "Type": "Switch",
+    "ID": "5",
+    "Name": "s5"
+  },
+  {
+    "Description": "Main Dev switch joining mesh and Dev Floor",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000006",
+    "Type": "Switch",
+    "ID": "6",
+    "Name": "s6"
+  },
+  {
+    "Description": "Switch in Server Farm",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000007",
+    "Type": "Switch",
+    "ID": "7",
+    "Name": "s7"
+  },
+  {
+    "Description": "Switch in Server Farm",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000008",
+    "Type": "Switch",
+    "ID": "8",
+    "Name": "s8"
+  },
+  {
+    "Description": "Switch on HR Floor",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000009",
+    "Type": "Switch",
+    "ID": "9",
+    "Name": "s9"
+  },
+  {
+    "Description": "Switch on HR Floor connected to LAN",
+    "IP": "127.0.0.1",
+    "MAC": "000000000000000a",
+    "Type": "Switch",
+    "ID": "10",
+    "Name": "s10"
+  },
+  {
+    "Description": "AP on HR Floor",
+    "IP": "127.0.0.1",
+    "MAC": "000000000000000b",
+    "Type": "Switch",
+    "ID": "11",
+    "Name": "s11"
+  },
+  {
+    "Description": "HR Lan switch",
+    "IP": "127.0.0.1",
+    "MAC": "000000000000000c",
+    "Type": "Switch",
+    "ID": "12",
+    "Name": "s12"
+  },
+  {
+    "Description": "Dev Floor switch",
+    "IP": "127.0.0.1",
+    "MAC": "000000000000000d",
+    "Type": "Switch",
+    "ID": "13",
+    "Name": "s13"
+  },
+  {
+    "Description": "Dev Floor switch",
+    "IP": "127.0.0.1",
+    "MAC": "000000000000000e",
+    "Type": "Switch",
+    "ID": "14",
+    "Name": "s14"
+  },
+  {
+    "Description": "Dev Floor switch",
+    "IP": "127.0.0.1",
+    "MAC": "000000000000000f",
+    "Type": "Switch",
+    "ID": "15",
+    "Name": "s15"
+  },
+  {
+    "Description": "Dev Floor AP",
+    "IP": "127.0.0.1",
+    "MAC": "0000000000000010",
+    "Type": "Switch",
+    "ID": "16",
+    "Name": "s16"
+  },
+  {
+    "Description": "Email Server - Server Farm",
+    "IP": "10.0.0.1",
+    "Port": "h1-eth0:s7-eth2",
+    "MAC": "86:90:a6:55:dd:4b",
+    "Type": "Host",
+    "ID": "17",
+    "Name": "h1"
+  },
+  {
+    "Description": "DNS Server - Server Farm",
+    "IP": "10.0.0.2",
+    "Port": "h2-eth0:s8-eth2",
+    "MAC": "82:44:90:32:92:45",
+    "Type": "Host",
+    "ID": "18",
+    "Name": "h2"
+  },
+  {
+    "Description": "Printer:1 - HR",
+    "IP": "10.0.0.3",
+    "Port": "h3-eth0:s9-eth2",
+    "MAC": "32:0c:78:92:f3:69",
+    "Type": "Host",
+    "ID": "19",
+    "Name": "h3"
+  },
+  {
+    "Description": "IPPhone:1 - HR",
+    "IP": "10.0.0.4",
+    "Port": "h4-eth0:s9-eth3",
+    "MAC": "fa:04:be:14:7b:ba",
+    "Type": "Host",
+    "ID": "20",
+    "Name": "h4"
+  },
+  {
+    "Description": "PC:1 - HR",
+    "IP": "10.0.0.5",
+    "Port": "h5-eth0:s10-eth3",
+    "MAC": "ae:3e:e8:69:53:95",
+    "Type": "Host",
+    "ID": "21",
+    "Name": "h5"
+  },
+  {
+    "Description": "LAN - HR",
+    "IP": "10.0.0.6",
+    "Port": "h6-eth0:s12-eth2",
+    "MAC": "de:7d:88:e8:6c:d0",
+    "Type": "Host",
+    "ID": "22",
+    "Name": "h6"
+  },
+  {
+    "Description": "LAN - HR",
+    "IP": "10.0.0.7",
+    "Port": "h7-eth0:s12-eth3",
+    "MAC": "06:22:d7:97:cf:d9",
+    "Type": "Host",
+    "ID": "23",
+    "Name": "h7"
+  },
+  {
+    "Description": "LAN - HR",
+    "IP": "10.0.0.8",
+    "Port": "h8-eth0:s12-eth4",
+    "MAC": "6a:ab:b4:87:94:ce",
+    "Type": "Host",
+    "ID": "24",
+    "Name": "h8"
+  },
+  {
+    "Description": "LAN - HR",
+    "IP": "10.0.0.9",
+    "Port": "h9-eth0:s12-eth5",
+    "MAC": "56:a9:b5:8c:92:c6",
+    "Type": "Host",
+    "ID": "25",
+    "Name": "h9"
+  },
+  {
+    "Description": "PC:3 - Dev",
+    "IP": "10.0.0.10",
+    "Port": "h10-eth0:s13-eth2",
+    "MAC": "e6:8c:76:d1:26:5a",
+    "Type": "Host",
+    "ID": "26",
+    "Name": "h10"
+  },
+  {
+    "Description": "PC:2 - Dev",
+    "IP": "10.0.0.11",
+    "Port": "h11-eth0:s13-eth3",
+    "MAC": "42:cc:53:4c:19:2c",
+    "Type": "Host",
+    "ID": "27",
+    "Name": "h11"
+  },
+  {
+    "Description": "Server:1 - Dev",
+    "IP": "10.0.0.12",
+    "Port": "h12-eth0:s14-eth2",
+    "MAC": "92:e5:d8:ab:46:b9",
+    "Type": "Host",
+    "ID": "28",
+    "Name": "h12"
+  },
+  {
+    "Description": "Server:2 - Dev",
+    "IP": "10.0.0.13",
+    "Port": "h13-eth0:s14-eth3",
+    "MAC": "92:21:59:76:c1:76",
+    "Type": "Host",
+    "ID": "29",
+    "Name": "h13"
+  }
+]

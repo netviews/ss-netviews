@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "name": "Department",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "h1",
+      "type": "O",
+      "properties": {}
+    },
+    {
+
+      "name": "email",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+
+      "name": "h2",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "dns",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "serverFarm",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "h3",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "printer",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "h4",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "ipphone",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "HR",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "h12",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "h13",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "dev",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "h5",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h6",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h7",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h8",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h9",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "HRU",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+
+      "name": "h10",
+      "type": "U",
+      "properties": {}
+    },
+    {
+
+      "name": "h11",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "devU",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "local",
+      "type": "UA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "serverFarm",
+      "target": "Department"
+    },
+    {
+      "source": "local",
+      "target": "Department"
+    },
+    {
+      "source": "devU",
+      "target": "local"
+    },
+    {
+      "source": "HRU",
+      "target": "local"
+    },
+    {
+      "source": "h5",
+      "target": "HRU"
+    },
+    {
+      "source": "h6",
+      "target": "HRU"
+    },
+    {
+      "source": "h7",
+      "target": "HRU"
+    },
+    {
+      "source": "h8",
+      "target": "HRU"
+    },
+    {
+      "source": "h9",
+      "target": "HRU"
+    },
+    {
+      "source": "h10",
+      "target": "devU"
+    },
+    {
+      "source": "h11",
+      "target": "devU"
+    },
+    {
+      "source": "HR",
+      "target": "Department"
+    },
+    {
+      "source": "dev",
+      "target": "Department"
+    },
+    {
+      "source": "email",
+      "target": "serverFarm"
+    },
+    {
+      "source": "dns",
+      "target": "serverFarm"
+    },
+    {
+      "source": "h1",
+      "target": "email"
+    },
+    {
+      "source": "h2",
+      "target": "dns"
+    },
+    {
+      "source": "printer",
+      "target": "HR"
+    },
+    {
+      "source": "ipphone",
+      "target": "HR"
+    },
+    {
+      "source": "h3",
+      "target": "printer"
+    },
+    {
+      "source": "h4",
+      "target": "ipphone"
+    },
+    {
+      "source": "h12",
+      "target": "dev"
+    },
+    {
+      "source": "h13",
+      "target": "dev"
+    }
+  ],
+  "associations": [
+    {
+      "source": "local",
+      "target": "email",
+      "operations": ["tcp/587", "tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91", "udp/80", "icmp/"]
+    },
+    {
+      "source": "local",
+      "target": "dns",
+      "operations": ["tcp/53", "tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91"]
+    },
+    {
+      "source": "local",
+      "target": "ipphone",
+      "operations": ["tcp/5060", "udp/5060", "tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91"]
+    },
+    {
+      "source": "local",
+      "target": "printer",
+      "operations": ["tcp/9100", "udp/5060", "tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91"]
+    },
+    {
+      "source": "HRU",
+      "target": "printer",
+      "operations": ["tcp/9100"]
+    },
+    {
+      "source": "HRU",
+      "target": "printer",
+      "operations": ["tcp/9100"]
+    },
+    {
+      "source": "HRU",
+      "target": "dev",
+      "operations": ["tcp/9100", "tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91"]
+    },
+    {
+      "source": "devU",
+      "target": "dev",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91", "udp/80", "icmp/"]
+    },
+    {
+      "source": "devU",
+      "target": "ipphone",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91", "udp/80", "icmp/"]
+    },
+    {
+      "source": "devU",
+      "target": "printer",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91", "udp/80", "icmp/"]
+    },
+    {
+      "source": "devU",
+      "target": "dns",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91", "udp/80", "icmp/"]
+    },
+    {
+      "source": "devU",
+      "target": "email",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/90", "tcp/91", "udp/80", "icmp/"]
+    }
+  ]
+}

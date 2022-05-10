@@ -1,0 +1,361 @@
+{
+    "switches": [
+        {
+            "name": "s1", 
+            "description": "Main switch (first switch on the inside)"
+        }, 
+        {
+            "name": "s2", 
+            "description": "Mesh switch connected to Main switch"
+        }, 
+        {
+            "name": "s3", 
+            "description": "Mesh switch connected to Main Dev switch"
+        }, 
+        {
+            "name": "s4", 
+            "description": "Mesh switch connected to HR Floor"
+        }, 
+        {
+            "name": "s5", 
+            "description": "Mesh switch connected to Server Farm"
+        }, 
+        {
+            "name": "s6", 
+            "description": "Main Dev switch joining mesh and Dev Floor"
+        }, 
+        {
+            "name": "s7", 
+            "description": "Switch in Server Farm"
+        }, 
+        {
+            "name": "s8", 
+            "description": "Switch in Server Farm"
+        }, 
+        {
+            "name": "s9", 
+            "description": "Switch on HR Floor"
+        }, 
+        {
+            "name": "s10", 
+            "description": "Switch on HR Floor connected to LAN"
+        }, 
+        {
+            "name": "s11", 
+            "description": "AP on HR Floor"
+        }, 
+        {
+            "name": "s12", 
+            "description": "HR Lan switch"
+        }, 
+        {
+            "name": "s13", 
+            "description": "Dev Floor switch"
+        }, 
+        {
+            "name": "s14", 
+            "description": "Dev Floor switch"
+        }, 
+        {
+            "name": "s15", 
+            "description": "Dev Floor switch"
+        }, 
+        {
+            "name": "s16", 
+            "description": "Dev Floor AP"
+        }
+    ], 
+    "hosts": [
+        {
+            "description": "HTTP Server - Server Farm", 
+            "name": "h1", 
+            "server_type": "HTTP"
+        }, 
+        {
+            "description": "DNS Server - Server Farm", 
+            "name": "h2", 
+            "server_type": "HTTP"
+        }, 
+        {
+            "description": "Printer:1 - HR", 
+            "name": "h3", 
+            "server_type": null
+        }, 
+        {
+            "description": "IPPhone:1 - HR", 
+            "name": "h4", 
+            "server_type": null
+        }, 
+        {
+            "description": "PC:1 - HR", 
+            "name": "h5", 
+            "server_type": null
+        }, 
+        {
+            "description": "LAN - HR", 
+            "name": "h6", 
+            "server_type": null
+        }, 
+        {
+            "description": "LAN - HR", 
+            "name": "h7", 
+            "server_type": null
+        }, 
+        {
+            "description": "LAN - HR", 
+            "name": "h8", 
+            "server_type": null
+        }, 
+        {
+            "description": "LAN - HR", 
+            "name": "h9", 
+            "server_type": null
+        }, 
+        {
+            "description": "PC:3 - Dev", 
+            "name": "h10", 
+            "server_type": null
+        }, 
+        {
+            "description": "PC:2 - Dev", 
+            "name": "h11", 
+            "server_type": null
+        }, 
+        {
+            "description": "Server:1 - Dev", 
+            "name": "h12", 
+            "server_type": null
+        }, 
+        {
+            "description": "Server:2 - Dev", 
+            "name": "h13", 
+            "server_type": null
+        }
+    ], 
+    "links": [
+        {
+            "node1": "s1", 
+            "linkopts": {
+                "bw": 1000 
+            }, 
+            "node2": "s2"
+        }, 
+        {
+            "node1": "s2", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s3"
+        }, 
+        {
+            "node1": "s2", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s4"
+        }, 
+        {
+            "node1": "s2", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s5"
+        }, 
+        {
+            "node1": "s3", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s4"
+        }, 
+        {
+            "node1": "s3", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s5"
+        }, 
+        {
+            "node1": "s4", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s5"
+        }, 
+        {
+            "node1": "s2", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s6"
+        }, 
+        {
+            "node1": "s3", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s6"
+        }, 
+        {
+            "node1": "s5", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s7"
+        }, 
+        {
+            "node1": "s5", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s8"
+        }, 
+        {
+            "node1": "s4", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s9"
+        }, 
+        {
+            "node1": "s4", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s10"
+        }, 
+        {
+            "node1": "s4", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s11"
+        }, 
+        {
+            "node1": "s10", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s12"
+        }, 
+        {
+            "node1": "s6", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s13"
+        }, 
+        {
+            "node1": "s6", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s14"
+        }, 
+        {
+            "node1": "s6", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s15"
+        }, 
+        {
+            "node1": "s15", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "s16"
+        }, 
+        {
+            "node1": "s7", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h1"
+        }, 
+        {
+            "node1": "s8", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h2"
+        }, 
+        {
+            "node1": "s9", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h3"
+        }, 
+        {
+            "node1": "s9", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h4"
+        }, 
+        {
+            "node1": "s10", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h5"
+        }, 
+        {
+            "node1": "s12", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h6"
+        }, 
+        {
+            "node1": "s12", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h7"
+        }, 
+        {
+            "node1": "s12", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h8"
+        }, 
+        {
+            "node1": "s12", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h9"
+        }, 
+        {
+            "node1": "s13", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h10"
+        }, 
+        {
+            "node1": "s13", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h11"
+        }, 
+        {
+            "node1": "s14", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h12"
+        }, 
+        {
+            "node1": "s14", 
+            "linkopts": {
+                "bw": 1000
+            }, 
+            "node2": "h13"
+        }
+    ]
+}

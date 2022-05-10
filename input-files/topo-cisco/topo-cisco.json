@@ -1,0 +1,312 @@
+{
+    "switches": [
+        {
+            "name": "s7",
+            "description": "router"
+        },
+        {
+            "name": "s8",
+            "description": "router"
+        },
+        {
+            "name": "s9",
+            "description": "firewall"
+        },
+        {
+            "name": "s10",
+            "description": "firewall"
+        },
+        {
+            "name": "s1",
+            "description": "switch"
+        },
+        {
+            "name": "s2",
+            "description": "switch"
+        },
+        {
+            "name": "s3",
+            "description": "switch"
+        },
+        {
+            "name": "s4",
+            "description": "switch"
+        },
+        {
+            "name": "s5",
+            "description": "switch"
+        },
+        {
+            "name": "s6",
+            "description": "ap"
+        }
+    ],
+	"hosts": [
+        {
+            "description": "host",
+            "name": "h1",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h2",
+            "server_type": null
+        },
+        {
+            "description": "mobile",
+            "name": "h3",
+            "server_type": null
+        },
+        {
+            "description": "laptop",
+            "name": "h4",
+            "server_type": null
+        },
+        {
+            "description": "server",
+            "name": "sv1",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv2",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv3",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv4",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv5",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv6",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv7",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv8",
+            "server_type": "HTTP"
+        }
+    ],
+    "links": [
+	   {
+		  "node1": "s7",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s8"
+	   },
+	   {
+		  "node1": "s7",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s9"
+	   },
+	   {
+		  "node1": "s7",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s10"
+	   },
+	   {
+		  "node1": "s8",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s9"
+	   },
+	   {
+		  "node1": "s8",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s10"
+	   },
+	   {
+		  "node1": "s9",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s10"
+	   },
+	   {
+		  "node1": "s9",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s1"
+	   },
+	   {
+		  "node1": "s9",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s2"
+	   },
+	   {
+		  "node1": "s9",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s3"
+	   },
+	   {
+		  "node1": "s9",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s6"
+	   },
+	   {
+		  "node1": "s10",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s2"
+	   },
+	   {
+		  "node1": "s10",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s3"
+	   },
+	   {
+		  "node1": "s10",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s4"
+	   },
+	   {
+		  "node1": "s1",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "h1"
+	   },
+	   {
+		  "node1": "s1",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "h2"
+	   },
+	   {
+		  "node1": "s2",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "h2"
+	   },
+	   {
+		  "node1": "s2",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv1"
+	   },
+	   {
+		  "node1": "s2",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv2"
+	   },
+	   {
+		  "node1": "s2",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv3"
+	   },
+	   {
+		  "node1": "s2",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv3"
+	   },
+	   {
+		  "node1": "s3",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv3"
+	   },
+	   {
+		  "node1": "s3",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv4"
+	   },
+	   {
+		  "node1": "s6",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "h3"
+	   },
+	   {
+		  "node1": "s6",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "h4"
+	   },
+	   {
+		  "node1": "s4",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv7"
+	   },
+	   {
+		  "node1": "s4",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv8"
+	   },
+	   {
+		  "node1": "s4",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "s5"
+	   },
+	   {
+		  "node1": "s5",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv6"
+	   },
+	   {
+		  "node1": "s5",
+		  "linkopts": {
+                        "bw": 1000
+                  },
+		  "node2": "sv5"
+	   }
+	]
+}
+

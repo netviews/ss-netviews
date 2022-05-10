@@ -1,0 +1,248 @@
+{
+    "switches": [
+        {
+            "name": "s1",
+            "description": "switch"
+        },
+        {
+            "name": "s2",
+            "description": "switch"
+        },
+        {
+            "name": "s3",
+            "description": "switch"
+        },
+        {
+            "name": "s4",
+            "description": "switch"
+        },
+        {
+            "name": "s5",
+            "description": "switch"
+        },
+        {
+            "name": "s6",
+            "description": "switch"
+        },
+        {
+            "name": "s7",
+            "description": "AP"
+        }
+    ],
+    "hosts": [
+        {
+            "description": "Internet",
+            "name": "internet1",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h1",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h2",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h3",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h4",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h5",
+            "server_type": null
+        },
+        {
+            "description": "host",
+            "name": "h6",
+            "server_type": null
+        },
+        {
+            "description": "mobile",
+            "name": "m1",
+            "server_type": null
+        },
+        {
+            "description": "mobile",
+            "name": "m2",
+            "server_type": null
+        },
+        {
+            "description": "server",
+            "name": "sv1",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv2",
+            "server_type": "HTTP"
+        },
+        {
+            "description": "server",
+            "name": "sv3",
+            "server_type": "SSH"
+        },
+        {
+            "description": "server",
+            "name": "sv4",
+            "server_type": "SMTP"
+        }
+    ],
+    "links": [
+        {
+            "node1": "internet1",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s5"
+        },
+        {
+            "node1": "s5",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s1"
+        },
+        {
+            "node1": "s5",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s4"
+        },
+        {
+            "node1": "s5",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s6"
+        },
+        {
+            "node1": "s1",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "h1"
+        },
+        {
+            "node1": "s1",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "h2"
+        },
+        {
+            "node1": "s1",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "h3"
+        },
+        {
+            "node1": "s4",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s2"
+        },
+        {
+            "node1": "s4",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s3"
+        },
+        {
+            "node1": "s6",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "h5"
+        },
+        {
+            "node1": "s6",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "h6"
+        },
+        {
+            "node1": "s2",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "h4"
+        },
+        {
+            "node1": "s2",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "sv1"
+        },
+        {
+            "node1": "s2",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "sv3"
+        },
+        {
+            "node1": "s2",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "s7"
+        },
+        {
+            "node1": "s7",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "m1"
+        },
+        {
+            "node1": "s7",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "m2"
+        },
+        {
+            "node1": "s3",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "sv1"
+        },
+        {
+            "node1": "s3",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "sv2"
+        } ,
+        {
+            "node1": "s3",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "sv3"
+        } ,
+        {
+            "node1": "s3",
+            "linkopts": {
+                "bw": 1000
+            },
+            "node2": "sv4"
+        }
+    ]
+}

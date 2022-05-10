@@ -1,0 +1,278 @@
+{
+  "nodes": [
+    {
+      "name": "department",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "internet1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h2",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h3",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h4",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h5",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h6",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "m1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "m2",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "hrUA",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "staticUA",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "mobileUA",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "devUA",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "localUA",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+	 "name": "internetUA",
+	 "type": "UA",
+      "properties": {}
+
+    },
+    {
+      "name": "sv1",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv2",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv3",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv4",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "httpGOA",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "smtpGOA",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "cpuDOA",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "httpDOA",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "generalOA",
+      "type": "OA",
+      "properties": {}
+    },
+    {
+      "name": "devOA",
+      "type": "OA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "localUA",
+      "target": "department"
+    },
+    {
+      "source": "internetUA",
+      "target": "department"
+    },
+    {
+      "source": "generalOA",
+      "target": "department"
+    },
+    {
+      "source": "devOA",
+      "target": "department"
+    },
+    {
+      "source": "internet1",
+      "target": "internetUA"
+    },
+    {
+      "source": "hrUA",
+      "target": "localUA"
+    },
+    {
+      "source": "devUA",
+      "target": "localUA"
+    },
+    {
+      "source": "mobileUA",
+      "target": "devUA"
+    },
+    {
+      "source": "staticUA",
+      "target": "devUA"
+    },
+    {
+      "source": "httpGOA",
+      "target": "generalOA"
+    },
+    {
+      "source": "smtpGOA",
+      "target": "generalOA"
+    },
+    {
+      "source": "cpuDOA",
+      "target": "devOA"
+    },
+    {
+      "source": "httpDOA",
+      "target": "devOA"
+    },
+    {
+      "source": "h1",
+      "target": "hrUA"
+    },
+    {
+      "source": "h2",
+      "target": "hrUA"
+    },    
+    {
+      "source": "h3",
+      "target": "hrUA"
+    },
+    {
+      "source": "h4",
+      "target": "hrUA"
+    },
+    {
+      "source": "h5",
+      "target": "staticUA"
+    },
+    {
+      "source": "h6",
+      "target": "staticUA"
+    },
+    {
+      "source": "m1",
+      "target": "mobileUA"
+    },
+    {
+      "source": "m2",
+      "target": "mobileUA"
+    },
+    {
+      "source": "sv1",
+      "target": "httpGOA"
+    },
+    {
+      "source": "sv2",
+      "target": "smtpGOA"
+    },
+    {
+      "source": "sv4",
+      "target": "httpDOA"
+    },
+    {
+      "source": "sv3",
+      "target": "cpuDOA"
+    }
+ ],
+"associations": [
+    {
+      "source": "hrUA",
+      "target": "httpDOA",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/443", "arp", "tcp/587", "tcp/2525"]
+    },
+    {
+      "source": "hrUA",
+      "target": "cpuDOA",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/443", "arp", "tcp/587", "tcp/2525"]
+    },
+    {
+      "source": "internetUA",
+      "target": "httpGOA",
+      "operations": ["tcp/80", "tcp/443", "arp"]
+    },
+    {
+      "source": "localUA",
+      "target": "generalOA",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/443", "arp", "tcp/587", "tcp/2525"]
+    },
+    {
+      "source": "devUA",
+      "target": "devOA",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/443", "arp", "tcp/22", "tcp/23"]
+    },
+    {
+      "source": "mobileUA",
+      "target": "devOA",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/443", "arp", "tcp/22", "tcp/23"]
+    }
+ ],
+ "prohibition":[
+    {
+      "source": "mobileUA",
+      "target": "cpuDOA",
+      "operations": ["tcp/22", "tcp/23", "arp"]
+    }
+ ]
+}
+
+

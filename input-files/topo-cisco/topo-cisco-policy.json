@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "name": "department",
+      "type": "PC",
+      "properties": {}
+    },
+    {
+      "name": "h1",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h2",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h3",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "h4",
+      "type": "U",
+      "properties": {}
+    },
+    {
+      "name": "localUA",
+      "type": "UA",
+      "properties": {}
+    },
+    {
+      "name": "sv1",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv2",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv3",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv4",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv5",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv6",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv7",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "sv8",
+      "type": "O",
+      "properties": {}
+    },
+    {
+      "name": "generalOA",
+      "type": "OA",
+      "properties": {}
+    }
+  ],
+  "assignments": [
+    {
+      "source": "localUA",
+      "target": "department"
+    },
+    {
+      "source": "generalOA",
+      "target": "department"
+    },
+    {
+      "source": "h1",
+      "target": "localUA"
+    },
+    {
+      "source": "h2",
+      "target": "localUA"
+    },    
+    {
+      "source": "h3",
+      "target": "localUA"
+    },
+    {
+      "source": "h4",
+      "target": "localUA"
+    },
+    {
+      "source": "sv1",
+      "target": "generalOA"
+    },
+    {
+      "source": "sv2",
+      "target": "generalOA"
+    },
+    {
+      "source": "sv3",
+      "target": "generalOA"
+    },    
+    {
+      "source": "sv4",
+      "target": "generalOA"
+    },
+    {
+      "source": "sv5",
+      "target": "generalOA"
+    },
+    {
+      "source": "sv6",
+      "target": "generalOA"
+    },
+    {
+      "source": "sv7",
+      "target": "generalOA"
+    },    
+    {
+      "source": "sv8",
+      "target": "generalOA"
+    }
+ ],
+"associations": [
+    {
+      "source": "localUA",
+      "target": "generalOA",
+      "operations": ["tcp/80", "tcp/81", "tcp/82", "tcp/83", "tcp/84", "tcp/85", "tcp/86", "tcp/87", "tcp/88", "tcp/89", "tcp/443", "arp"]
+    }
+ ]
+}
+
+
