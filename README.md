@@ -20,7 +20,7 @@ Attack graph visualizing possible reconnaissance and lateral movement from a com
 Richard Lippmann, Kyle Ingols, Chris Scott, Keith Piwowarski, Kendra Kratkiewicz, Mike Artz, and Robert Cunningham. 2006. Validating and Restor- ing Defense in Depth Using Attack Graphs. In Proceedings of the IEEE Military Communications conference (MILCOM).
 ```
 
-## Environment Setup
+## Network Environment Setup
 ### Mininet Installation
 ```
 git clone https://github.com/mininet/mininet
