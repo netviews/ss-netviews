@@ -1,0 +1,7 @@
+To run and generate policy graph:
+    python randomPolicyGraph.py Algorithm UserCount ObjectCount Height
+
+Example:
+    To generate policy graph useing algorithm 1, 2 user, 1 object and 1 height:
+        python randomPolicyGraph.py 1 2 1 1
+
