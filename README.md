@@ -1,7 +1,18 @@
 # ss-netviews
 ## Random Policy Graph Generation
-To understand the impact of the Policy Engine on the overall NetViews overhead, we analyzed the response time of policy-machine-core using random policy graphs.
-
+To understand the impact of the Policy Engine on the overall NetViews overhead, we analyzed the response time of policy-machine-core using random policy graphs. We used similar techniques as following paper:
+```
+R. Basnet, S. Mukherjee, V. M. Pagadala, and I. Ray. 2018. An efficient implementa- tion of next generation access control for the mobile health cloud. In Proceedings of the International Conference on Fog and Mobile Edge Computing (FMEC).
+```
+The implementation is in [here](https://github.com/netviews/ss-netviews/tree/master/random-graph-generation)
+To run and generate policy graph:
+```
+    python randomPolicyGraph.py AlgorithmNo UserCount ObjectCount Height
+```
+To generate policy graph useing algorithm one, two user, one object and one height:
+```
+python randomPolicyGraph.py 1 2 1 1
+```
 
 ## Environment Setup
 ### Mininet Installation
