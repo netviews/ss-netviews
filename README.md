@@ -82,6 +82,8 @@ app activate fwd
 2. Go to the netviews-code/ONOS_Apps directory
 3. Change the paths of policy and identity files in the IntentReactiveForwarding [Line 167 and 168], netviews-code/ONOS_Apps/nifwd_combined/app/src/main/java/org/onosproject/nifwd_combined/IntentReactiveForwarding.java, to your local paths
 4. Run onos_setup to move files to the $ONOS_ROOT directory (see [README](https://github.com/netviews/ss-netviews/blob/master/ONOS_Apps/README)).
-5. Build ONOS, activate cooresponding forwarding application
+5. Build ONOS and activate cooresponding forwarding application.
+
+
 
 
