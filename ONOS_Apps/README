@@ -1,0 +1,22 @@
+How to write/modify applications::
+
+1. Write appications in their respective directories.
+
+2. Add the applications to modules.bzl.
+
+3. Add application dependencies to deps.json.
+
+4. Run the onos_setup bash script, which will use the $ONOS_ROOT environment
+   variable to place the applications in the $ONOS_ROOT/apps directory, 
+   modules.bzl in the $ONOS_ROOT/tools/build/bazel direcory, deps.json in the
+   $ONOS_ROOT/deps directory, and runs onos-lib-gen which generates a new
+   generate_workspace.bzl (in $ONOS_ROOT/tools/build/bazel.
+
+5. Rebuild your onos application, which should now have the apps installed. 
+
+
+notes: 
+1. must be running onos 2.3 (git checkout onos-2.3 while in $ONOS_ROOT directroy)
+2. copy deps.json and modules.bzl present in this fix-install to netviews-code/ONOS_Apps
+4. run ./onos_setup
+3. Next build and run ONOS, it may say missing the app np, vim onos_setup and uncomment the two apps that have been commented out for quick fix
