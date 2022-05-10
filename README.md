@@ -43,7 +43,27 @@ Add the following 2 lines to ~/.bashrc:
 export ONOS_ROOT=~/onos
 source $ONOS_ROOT/tools/dev/bash_profile
 ```
-Run ONOS using following command and wait till log stops
+Run ONOS using following command and wait till log stops to ensure proper compilation and startup:
 ```
 bazel run onos-local -- clean debug
+```
+From another terminal, run the ONOS CLI and activate the desired application:
+```
+$ONOS_ROOT/tools/test/bin/onos localhost
+```
+For activating Netviews (nifwd) application:
+```
+app deactivate [other existing forwarding application]
+app activate nifwd_combined
+```
+For activating ONOS Intent (ifwd) application:
+
+```
+app deactivate [other existing forwarding application]
+app activate ifwd
+```
+For activating ONOS Reactive Forwarding application:
+```
+app deactivate [other existing forwarding application]
+app activate fwd
 ```
