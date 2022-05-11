@@ -1,0 +1,1 @@
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./throughput_no_verification/cisco -a org.onosproject.ifwd

@@ -1,0 +1,6 @@
+fwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_ref -r 50 -s 70 -d ./rerun_02_16_21/ -a org.onosproject.fwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_ref -r 50 -s 70 -d ./rerun_02_16_21/ -a org.onosproject.ifwd
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_ref -r 50 -s 70 -d ./rerun_02_16_21/ -a org.onosproject.nifwd_combined
+fwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./rerun_02_16_21/ -a org.onosproject.fwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./rerun_02_16_21/ -a org.onosproject.ifwd -f
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./rerun_02_16_21/ -a org.onosproject.nifwd_combined -f

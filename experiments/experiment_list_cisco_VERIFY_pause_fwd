@@ -1,0 +1,2 @@
+fwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 5 -s 105 -d ./rerun_02_28_21/cisco -a org.onosproject.fwd -w 1
+fwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 105 -d ./rerun_02_28_21/cisco -a org.onosproject.fwd -w 1

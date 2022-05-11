@@ -1,0 +1,2503 @@
+[1m
+Intent type                Total     Installed     Withdrawn        Failed    InstallReq     Compiling    Installing   Recompiling   WithdrawReq   Withdrawing  UnknownState[0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[1mAll[0m                          192           192             0             0             0             0             0             0             0             0             0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[1mHostToHost[0m                   192           192             0             0             0             0             0             0             0             0             0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[1mId:[0m 0x1bd
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None0A:0A:7A:9E:B5:BF/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x380
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None5A:97:68:6C:74:BC/None10.0.0.3CA:BA:F8:47:53:A210.0.0.125A:97:68:6C:74:BCTCP8336322
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:36322, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x221
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x3b2
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None0A:0A:7A:9E:B5:BF/None10.0.0.135E:F3:86:78:2A:A510.0.0.90A:0A:7A:9E:B5:BFTCP4467088
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:44670
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0xb3
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None5A:97:68:6C:74:BC/None10.0.0.1D6:BD:16:8B:27:4310.0.0.125A:97:68:6C:74:BCTCP8152884
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:52884, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x6e
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None1A:D8:A6:5E:96:11/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x3a2
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None3E:B9:75:D7:A9:1E/None10.0.0.125A:97:68:6C:74:BC10.0.0.63E:B9:75:D7:A9:1ETCP5525086
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:55250
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x34b
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None5E:F3:86:78:2A:A5/None10.0.0.41A:D8:A6:5E:96:1110.0.0.135E:F3:86:78:2A:A5TCP8453744
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:53744, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x2fb
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None12:33:33:CE:C5:6A/None10.0.0.8D2:64:F5:F5:87:0110.0.0.1112:33:33:CE:C5:6ATCP8740730
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:40730, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x37b
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/NoneDE:8C:AE:CC:24:60/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.10DE:8C:AE:CC:24:60TCP8655682
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55682, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x70
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/NoneDE:8C:AE:CC:24:60/None10.0.0.1D6:BD:16:8B:27:4310.0.0.10DE:8C:AE:CC:24:60TCP8136670
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:36670, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x3a3
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None0A:0A:7A:9E:B5:BF/None10.0.0.1112:33:33:CE:C5:6A10.0.0.90A:0A:7A:9E:B5:BFTCP4415488
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:44154
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x33
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneCA:2E:29:89:F9:FC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x253
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x61
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneCA:2E:29:89:F9:FC/None10.0.0.1112:33:33:CE:C5:6A10.0.0.2CA:2E:29:89:F9:FCTCP4767882
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:47678
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x30e
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/NoneDE:8C:AE:CC:24:60/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.10DE:8C:AE:CC:24:60TCP8655602
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55602, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x348
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None3E:B9:75:D7:A9:1E/None10.0.0.125A:97:68:6C:74:BC10.0.0.63E:B9:75:D7:A9:1ETCP5517086
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:55170
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x1da
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None0A:0A:7A:9E:B5:BF/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.90A:0A:7A:9E:B5:BFTCP3972488
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:39724
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x2aa
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None56:6E:E2:E1:C5:93/None10.0.0.125A:97:68:6C:74:BC10.0.0.556:6E:E2:E1:C5:93TCP5283085
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:52830
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x0
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneD6:BD:16:8B:27:43/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x16
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None1A:D8:A6:5E:96:11/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x1ef
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None56:6E:E2:E1:C5:93/None10.0.0.135E:F3:86:78:2A:A510.0.0.556:6E:E2:E1:C5:93TCP5820685
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:58206
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x18d
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneCA:2E:29:89:F9:FC/None10.0.0.125A:97:68:6C:74:BC10.0.0.2CA:2E:29:89:F9:FCTCP4792682
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:47926
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x8c
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneD6:BD:16:8B:27:43/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x35d
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None1A:D8:A6:5E:96:11/None10.0.0.135E:F3:86:78:2A:A510.0.0.41A:D8:A6:5E:96:11TCP5374484
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:53744
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x283
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/NoneDE:8C:AE:CC:24:60/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.10DE:8C:AE:CC:24:60TCP8839760
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:39760, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x26d
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/NoneDE:8C:AE:CC:24:60/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.10DE:8C:AE:CC:24:60TCP8247806
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:47806, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x3ac
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None5E:F3:86:78:2A:A5/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.135E:F3:86:78:2A:A5TCP8844670
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:44670, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x34a
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None5A:97:68:6C:74:BC/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.125A:97:68:6C:74:BCTCP8846150
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:46150, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x133
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x18b
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None56:6E:E2:E1:C5:93/None10.0.0.1112:33:33:CE:C5:6A10.0.0.556:6E:E2:E1:C5:93TCP5953685
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:59536
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x222
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneCA:BA:F8:47:53:A2/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.3CA:BA:F8:47:53:A2TCP5750283
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:57502
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x297
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None5A:97:68:6C:74:BC/None10.0.0.556:6E:E2:E1:C5:9310.0.0.125A:97:68:6C:74:BCTCP8552830
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:52830, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x256
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None3E:B9:75:D7:A9:1E/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x2ab
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None5E:F3:86:78:2A:A5/None10.0.0.8D2:64:F5:F5:87:0110.0.0.135E:F3:86:78:2A:A5TCP8743080
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:43080, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x7d
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x2d0
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None3E:B9:75:D7:A9:1E/None10.0.0.1112:33:33:CE:C5:6A10.0.0.63E:B9:75:D7:A9:1ETCP5559286
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:55592
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x210
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None12:33:33:CE:C5:6A/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.1112:33:33:CE:C5:6ATCP8655538
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55538, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x163
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None56:6E:E2:E1:C5:93/None10.0.0.135E:F3:86:78:2A:A510.0.0.556:6E:E2:E1:C5:93TCP5815885
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:58158
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x23c
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None5E:F3:86:78:2A:A5/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.135E:F3:86:78:2A:A5TCP8638712
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:38712, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x11c
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None5E:F3:86:78:2A:A5/None10.0.0.1D6:BD:16:8B:27:4310.0.0.135E:F3:86:78:2A:A5TCP8146150
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:46150, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x18c
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None0A:0A:7A:9E:B5:BF/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x132
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneD6:BD:16:8B:27:43/None10.0.0.135E:F3:86:78:2A:A510.0.0.1D6:BD:16:8B:27:43TCP4615081
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:46150
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x18f
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x1d8
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None12:33:33:CE:C5:6A/None10.0.0.3CA:BA:F8:47:53:A210.0.0.1112:33:33:CE:C5:6ATCP8333320
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:33320, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x60
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x41
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x37a
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None5E:F3:86:78:2A:A5/None10.0.0.8D2:64:F5:F5:87:0110.0.0.135E:F3:86:78:2A:A5TCP8743140
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:43140, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x35f
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None5E:F3:86:78:2A:A5/None10.0.0.3CA:BA:F8:47:53:A210.0.0.135E:F3:86:78:2A:A5TCP8349732
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:49732, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x34
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None5A:97:68:6C:74:BC/None10.0.0.41A:D8:A6:5E:96:1110.0.0.125A:97:68:6C:74:BCTCP8448572
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:48572, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x2fa
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneCA:2E:29:89:F9:FC/None10.0.0.125A:97:68:6C:74:BC10.0.0.2CA:2E:29:89:F9:FCTCP4800082
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:48000
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x107
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/NoneDE:8C:AE:CC:24:60/None10.0.0.8D2:64:F5:F5:87:0110.0.0.10DE:8C:AE:CC:24:60TCP8752202
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:52202, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x35e
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None5A:97:68:6C:74:BC/None10.0.0.556:6E:E2:E1:C5:9310.0.0.125A:97:68:6C:74:BCTCP8552904
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:52904, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x1c0
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneD6:BD:16:8B:27:43/None10.0.0.125A:97:68:6C:74:BC10.0.0.1D6:BD:16:8B:27:43TCP5295481
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:52954
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x51
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None12:33:33:CE:C5:6A/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.1112:33:33:CE:C5:6ATCP8247678
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:47678, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x52
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None1A:D8:A6:5E:96:11/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x322
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None5E:F3:86:78:2A:A5/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.135E:F3:86:78:2A:A5TCP8844610
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:44610, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x14c
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneD2:64:F5:F5:87:01/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.8D2:64:F5:F5:87:01TCP5223287
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:52232
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x2e6
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None0A:0A:7A:9E:B5:BF/None10.0.0.1112:33:33:CE:C5:6A10.0.0.90A:0A:7A:9E:B5:BFTCP4409488
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:44094
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0xf7
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/NoneDE:8C:AE:CC:24:60/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.10DE:8C:AE:CC:24:60TCP8247736
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:47736, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x1d6
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x2e5
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None1A:D8:A6:5E:96:11/None10.0.0.135E:F3:86:78:2A:A510.0.0.41A:D8:A6:5E:96:11TCP5365684
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:53656
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x2be
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None12:33:33:CE:C5:6A/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.1112:33:33:CE:C5:6ATCP8655592
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55592, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x14e
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None5E:F3:86:78:2A:A5/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.135E:F3:86:78:2A:A5TCP8258510
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:58510, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x1a8
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/NoneDE:8C:AE:CC:24:60/None10.0.0.556:6E:E2:E1:C5:9310.0.0.10DE:8C:AE:CC:24:60TCP8545466
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:45466, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x1f2
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x2f9
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None3E:B9:75:D7:A9:1E/None10.0.0.135E:F3:86:78:2A:A510.0.0.63E:B9:75:D7:A9:1ETCP3877086
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:38770
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x281
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneCA:2E:29:89:F9:FC/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.2CA:2E:29:89:F9:FCTCP4780682
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:47806
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x335
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None0A:0A:7A:9E:B5:BF/None10.0.0.135E:F3:86:78:2A:A510.0.0.90A:0A:7A:9E:B5:BFTCP4461088
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:44610
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x14a
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x2f8
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None5A:97:68:6C:74:BC/None10.0.0.41A:D8:A6:5E:96:1110.0.0.125A:97:68:6C:74:BCTCP8448610
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:48610, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x370
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None56:6E:E2:E1:C5:93/None10.0.0.125A:97:68:6C:74:BC10.0.0.556:6E:E2:E1:C5:93TCP5290485
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:52904
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x18e
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None5A:97:68:6C:74:BC/None10.0.0.8D2:64:F5:F5:87:0110.0.0.125A:97:68:6C:74:BCTCP8738510
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:38510, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x255
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneCA:BA:F8:47:53:A2/None10.0.0.135E:F3:86:78:2A:A510.0.0.3CA:BA:F8:47:53:A2TCP4965083
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:49650
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x23d
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None5E:F3:86:78:2A:A5/None10.0.0.3CA:BA:F8:47:53:A210.0.0.135E:F3:86:78:2A:A5TCP8349650
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:49650, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x2e4
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None5E:F3:86:78:2A:A5/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.135E:F3:86:78:2A:A5TCP8638770
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:38770, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0xe7
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneD2:64:F5:F5:87:01/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x224
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/NoneDE:8C:AE:CC:24:60/None10.0.0.41A:D8:A6:5E:96:1110.0.0.10DE:8C:AE:CC:24:60TCP8457260
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:57260, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x3bb
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneCA:2E:29:89:F9:FC/None10.0.0.135E:F3:86:78:2A:A510.0.0.2CA:2E:29:89:F9:FCTCP5862282
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:58622
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0xd6
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/NoneDE:8C:AE:CC:24:60/None10.0.0.1D6:BD:16:8B:27:4310.0.0.10DE:8C:AE:CC:24:60TCP8136742
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:36742, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0xe8
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x105
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x257
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None5A:97:68:6C:74:BC/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.125A:97:68:6C:74:BCTCP8846104
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:46104, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0xb
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None1A:D8:A6:5E:96:11/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.41A:D8:A6:5E:96:11TCP5722284
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:57222
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x25
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x336
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None5A:97:68:6C:74:BC/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.125A:97:68:6C:74:BCTCP8655170
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55170, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x323
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None12:33:33:CE:C5:6A/None10.0.0.41A:D8:A6:5E:96:1110.0.0.1112:33:33:CE:C5:6ATCP8448216
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:48216, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x295
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x2a8
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None12:33:33:CE:C5:6A/None10.0.0.41A:D8:A6:5E:96:1110.0.0.1112:33:33:CE:C5:6ATCP8448128
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:48128, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x8d
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None12:33:33:CE:C5:6A/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.1112:33:33:CE:C5:6ATCP8247740
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:47740, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x1a7
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None5A:97:68:6C:74:BC/None10.0.0.1D6:BD:16:8B:27:4310.0.0.125A:97:68:6C:74:BCTCP8152954
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:52954, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0xaa
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneCA:2E:29:89:F9:FC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x38b
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneCA:BA:F8:47:53:A2/None10.0.0.125A:97:68:6C:74:BC10.0.0.3CA:BA:F8:47:53:A2TCP3632283
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:36322
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x398
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None5A:97:68:6C:74:BC/None10.0.0.63E:B9:75:D7:A9:1E10.0.0.125A:97:68:6C:74:BCTCP8655250
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55250, TCP_DST:86
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x1f0
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None56:6E:E2:E1:C5:93/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x23a
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None1A:D8:A6:5E:96:11/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.41A:D8:A6:5E:96:11TCP5726084
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:57260
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x23e
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneD2:64:F5:F5:87:01/None10.0.0.1112:33:33:CE:C5:6A10.0.0.8D2:64:F5:F5:87:01TCP4068087
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:40680
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x6f
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneD6:BD:16:8B:27:43/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0xe6
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneD6:BD:16:8B:27:43/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.1D6:BD:16:8B:27:43TCP3674281
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:36742
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x30c
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None1A:D8:A6:5E:96:11/None10.0.0.125A:97:68:6C:74:BC10.0.0.41A:D8:A6:5E:96:11TCP4861084
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:48610
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x223
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None3E:B9:75:D7:A9:1E/None10.0.0.1112:33:33:CE:C5:6A10.0.0.63E:B9:75:D7:A9:1ETCP5553886
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:55538
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x7e
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x26e
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None0A:0A:7A:9E:B5:BF/None10.0.0.125A:97:68:6C:74:BC10.0.0.90A:0A:7A:9E:B5:BFTCP4610488
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:46104
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x24
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x1f3
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None5A:97:68:6C:74:BC/None10.0.0.8D2:64:F5:F5:87:0110.0.0.125A:97:68:6C:74:BCTCP8738546
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:38546, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x134
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None56:6E:E2:E1:C5:93/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x15
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None12:33:33:CE:C5:6A/None10.0.0.1D6:BD:16:8B:27:4310.0.0.1112:33:33:CE:C5:6ATCP8155996
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:55996, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x14
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None1A:D8:A6:5E:96:11/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x9d
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x11a
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneD2:64:F5:F5:87:01/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.8D2:64:F5:F5:87:01TCP5220287
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:52202
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x43
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None1A:D8:A6:5E:96:11/None10.0.0.125A:97:68:6C:74:BC10.0.0.41A:D8:A6:5E:96:11TCP4857284
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:48572
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x349
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneCA:BA:F8:47:53:A2/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.3CA:BA:F8:47:53:A2TCP5758283
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:57582
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x38a
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None3E:B9:75:D7:A9:1E/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.63E:B9:75:D7:A9:1ETCP5568286
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:55682
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x371
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneCA:BA:F8:47:53:A2/None10.0.0.135E:F3:86:78:2A:A510.0.0.3CA:BA:F8:47:53:A2TCP4973283
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:49732
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x42
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneD6:BD:16:8B:27:43/None10.0.0.1112:33:33:CE:C5:6A10.0.0.1D6:BD:16:8B:27:43TCP5606081
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:56060
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x208
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneD2:64:F5:F5:87:01/None10.0.0.125A:97:68:6C:74:BC10.0.0.8D2:64:F5:F5:87:01TCP3854687
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:38546
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x1d7
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None5E:F3:86:78:2A:A5/None10.0.0.556:6E:E2:E1:C5:9310.0.0.135E:F3:86:78:2A:A5TCP8558206
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:58206, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x280
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None3E:B9:75:D7:A9:1E/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x11b
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None12:33:33:CE:C5:6A/None10.0.0.556:6E:E2:E1:C5:9310.0.0.1112:33:33:CE:C5:6ATCP8559490
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:59490, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x1f1
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneCA:BA:F8:47:53:A2/None10.0.0.1112:33:33:CE:C5:6A10.0.0.3CA:BA:F8:47:53:A2TCP3332083
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:33320
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x5f
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x320
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneCA:BA:F8:47:53:A2/None10.0.0.1112:33:33:CE:C5:6A10.0.0.3CA:BA:F8:47:53:A2TCP3339883
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:33398
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x296
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None5A:97:68:6C:74:BC/None10.0.0.3CA:BA:F8:47:53:A210.0.0.125A:97:68:6C:74:BCTCP8336236
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:36236, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x165
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneD2:64:F5:F5:87:01/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x106
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneCA:BA:F8:47:53:A2/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x164
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneCA:2E:29:89:F9:FC/None10.0.0.135E:F3:86:78:2A:A510.0.0.2CA:2E:29:89:F9:FCTCP5851082
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:58510
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x9b
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x119
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None56:6E:E2:E1:C5:93/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x50
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneD6:BD:16:8B:27:43/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0xd2
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x17a
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None12:33:33:CE:C5:6A/None10.0.0.556:6E:E2:E1:C5:9310.0.0.1112:33:33:CE:C5:6ATCP8559536
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:59536, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x1a4
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x337
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/NoneDE:8C:AE:CC:24:60/None10.0.0.3CA:BA:F8:47:53:A210.0.0.10DE:8C:AE:CC:24:60TCP8357582
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:57582, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0xc5
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneCA:BA:F8:47:53:A2/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x3b1
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None5E:F3:86:78:2A:A5/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.135E:F3:86:78:2A:A5TCP8258622
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:58622, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x381
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneD2:64:F5:F5:87:01/None10.0.0.135E:F3:86:78:2A:A510.0.0.8D2:64:F5:F5:87:01TCP4314087
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:43140
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0xb5
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x8e
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneCA:2E:29:89:F9:FC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x1a6
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneD2:64:F5:F5:87:01/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x2e7
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None5A:97:68:6C:74:BC/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.125A:97:68:6C:74:BCTCP8248000
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:48000, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x2bd
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneD2:64:F5:F5:87:01/None10.0.0.135E:F3:86:78:2A:A510.0.0.8D2:64:F5:F5:87:01TCP4308087
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:43080
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x209
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None0A:0A:7A:9E:B5:BF/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x35c
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/None0A:0A:7A:9E:B5:BF/None10.0.0.125A:97:68:6C:74:BC10.0.0.90A:0A:7A:9E:B5:BFTCP4615088
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:46150
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x2d3
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None12:33:33:CE:C5:6A/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.1112:33:33:CE:C5:6ATCP8844094
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:44094, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0xab
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneCA:2E:29:89:F9:FC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x135
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/NoneDE:8C:AE:CC:24:60/None10.0.0.8D2:64:F5:F5:87:0110.0.0.10DE:8C:AE:CC:24:60TCP8752232
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:52232, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x30d
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneD2:64:F5:F5:87:01/None10.0.0.1112:33:33:CE:C5:6A10.0.0.8D2:64:F5:F5:87:01TCP4073087
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:40730
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x282
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None56:6E:E2:E1:C5:93/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.556:6E:E2:E1:C5:93TCP4552485
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:45524
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x26f
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/NoneDE:8C:AE:CC:24:60/None10.0.0.556:6E:E2:E1:C5:9310.0.0.10DE:8C:AE:CC:24:60TCP8545524
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:45524, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0xf5
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None56:6E:E2:E1:C5:93/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x7f
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneD6:BD:16:8B:27:43/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.1D6:BD:16:8B:27:43TCP3667081
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:36670
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x2a9
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneCA:BA:F8:47:53:A2/None10.0.0.125A:97:68:6C:74:BC10.0.0.3CA:BA:F8:47:53:A2TCP3623683
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:83, TCP_DST:36236
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x14d
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None5E:F3:86:78:2A:A5/None10.0.0.556:6E:E2:E1:C5:9310.0.0.135E:F3:86:78:2A:A5TCP8558158
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:58158, TCP_DST:85
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x1be
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0xe1
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneCA:BA:F8:47:53:A2/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x225
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None12:33:33:CE:C5:6A/None10.0.0.8D2:64:F5:F5:87:0110.0.0.1112:33:33:CE:C5:6ATCP8740680
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:40680, TCP_DST:87
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x30f
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None12:33:33:CE:C5:6A/None10.0.0.3CA:BA:F8:47:53:A210.0.0.1112:33:33:CE:C5:6ATCP8333398
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:33398, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x20a
+[1mState:[0m INSTALLED
+[1mKey:[0m 56:6E:E2:E1:C5:93/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [56:6E:E2:E1:C5:93/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:56:6E:E2:E1:C5:93, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 56:6E:E2:E1:C5:93/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x1
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/NoneDE:8C:AE:CC:24:60/None10.0.0.41A:D8:A6:5E:96:1110.0.0.10DE:8C:AE:CC:24:60TCP8457222
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:57222, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x334
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None1A:D8:A6:5E:96:11/None10.0.0.1112:33:33:CE:C5:6A10.0.0.41A:D8:A6:5E:96:11TCP4821684
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:48216
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0x1bf
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None56:6E:E2:E1:C5:93/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.556:6E:E2:E1:C5:93TCP4546685
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:45466
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0x179
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None3E:B9:75:D7:A9:1E/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x9c
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneCA:2E:29:89:F9:FC/None10.0.0.1112:33:33:CE:C5:6A10.0.0.2CA:2E:29:89:F9:FCTCP4774082
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:47740
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x20b
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/NoneDE:8C:AE:CC:24:60/None10.0.0.3CA:BA:F8:47:53:A210.0.0.10DE:8C:AE:CC:24:60TCP8357502
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:57502, TCP_DST:83
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x104
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/NoneCA:2E:29:89:F9:FC/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.2CA:2E:29:89:F9:FCTCP4773682
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, CA:2E:29:89:F9:FC/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:2E:29:89:F9:FC, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:82, TCP_DST:47736
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m CA:2E:29:89:F9:FC/None
+
+[1mId:[0m 0x399
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/None12:33:33:CE:C5:6A/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.1112:33:33:CE:C5:6ATCP8844154
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:44154, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0xc4
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneD6:BD:16:8B:27:43/None10.0.0.125A:97:68:6C:74:BC10.0.0.1D6:BD:16:8B:27:43TCP5288481
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:52884
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0xb6
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None5E:F3:86:78:2A:A5/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x1a5
+[1mState:[0m INSTALLED
+[1mKey:[0m 5A:97:68:6C:74:BC/NoneD2:64:F5:F5:87:01/None10.0.0.125A:97:68:6C:74:BC10.0.0.8D2:64:F5:F5:87:01TCP3851087
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5A:97:68:6C:74:BC/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:5A:97:68:6C:74:BC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:87, TCP_DST:38510
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5A:97:68:6C:74:BC/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x32
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None12:33:33:CE:C5:6A/None10.0.0.1D6:BD:16:8B:27:4310.0.0.1112:33:33:CE:C5:6ATCP8156060
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:56060, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x166
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0x294
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None0A:0A:7A:9E:B5:BF/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.90A:0A:7A:9E:B5:BFTCP3976088
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:88, TCP_DST:39760
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x254
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None3E:B9:75:D7:A9:1E/None10.0.0.135E:F3:86:78:2A:A510.0.0.63E:B9:75:D7:A9:1ETCP3871286
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:38712
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x2bf
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None5E:F3:86:78:2A:A5/None10.0.0.1D6:BD:16:8B:27:4310.0.0.135E:F3:86:78:2A:A5TCP8146222
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:46222, TCP_DST:81
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x178
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:2E:29:89:F9:FC/None5A:97:68:6C:74:BC/None10.0.0.2CA:2E:29:89:F9:FC10.0.0.125A:97:68:6C:74:BCTCP8247926
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:2E:29:89:F9:FC/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:CA:2E:29:89:F9:FC, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:47926, TCP_DST:82
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:2E:29:89:F9:FC/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x23
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneD6:BD:16:8B:27:43/None10.0.0.1112:33:33:CE:C5:6A10.0.0.1D6:BD:16:8B:27:43TCP5599681
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:55996
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0x1c1
+[1mState:[0m INSTALLED
+[1mKey:[0m 0A:0A:7A:9E:B5:BF/NoneDE:8C:AE:CC:24:60/None10.0.0.90A:0A:7A:9E:B5:BF10.0.0.10DE:8C:AE:CC:24:60TCP8839724
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [0A:0A:7A:9E:B5:BF/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:0A:0A:7A:9E:B5:BF, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:39724, TCP_DST:88
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 0A:0A:7A:9E:B5:BF/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x1d9
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneD2:64:F5:F5:87:01/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, D2:64:F5:F5:87:01/None]
+[1mCommon ingress selector:[0m ETH_DST:D2:64:F5:F5:87:01, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m D2:64:F5:F5:87:01/None
+
+[1mId:[0m 0x23b
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/None0A:0A:7A:9E:B5:BF/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, 0A:0A:7A:9E:B5:BF/None]
+[1mCommon ingress selector:[0m ETH_DST:0A:0A:7A:9E:B5:BF, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m 0A:0A:7A:9E:B5:BF/None
+
+[1mId:[0m 0x2bc
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None1A:D8:A6:5E:96:11/None10.0.0.1112:33:33:CE:C5:6A10.0.0.41A:D8:A6:5E:96:11TCP4812884
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 1A:D8:A6:5E:96:11/None]
+[1mCommon ingress selector:[0m ETH_DST:1A:D8:A6:5E:96:11, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:84, TCP_DST:48128
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 1A:D8:A6:5E:96:11/None
+
+[1mId:[0m 0xd3
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x26c
+[1mState:[0m INSTALLED
+[1mKey:[0m 3E:B9:75:D7:A9:1E/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [3E:B9:75:D7:A9:1E/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:3E:B9:75:D7:A9:1E, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 3E:B9:75:D7:A9:1E/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x2d1
+[1mState:[0m INSTALLED
+[1mKey:[0m 5E:F3:86:78:2A:A5/NoneD6:BD:16:8B:27:43/None10.0.0.135E:F3:86:78:2A:A510.0.0.1D6:BD:16:8B:27:43TCP4622281
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [5E:F3:86:78:2A:A5/None, D6:BD:16:8B:27:43/None]
+[1mCommon ingress selector:[0m ETH_DST:D6:BD:16:8B:27:43, ETH_SRC:5E:F3:86:78:2A:A5, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:81, TCP_DST:46222
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 5E:F3:86:78:2A:A5/None
+[1mDestination [0mhost:[0m D6:BD:16:8B:27:43/None
+
+[1mId:[0m 0xc3
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/NoneCA:BA:F8:47:53:A2/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, CA:BA:F8:47:53:A2/None]
+[1mCommon ingress selector:[0m ETH_DST:CA:BA:F8:47:53:A2, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m CA:BA:F8:47:53:A2/None
+
+[1mId:[0m 0x118
+[1mState:[0m INSTALLED
+[1mKey:[0m CA:BA:F8:47:53:A2/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [CA:BA:F8:47:53:A2/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:CA:BA:F8:47:53:A2, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m CA:BA:F8:47:53:A2/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x131
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None56:6E:E2:E1:C5:93/None10.0.0.1112:33:33:CE:C5:6A10.0.0.556:6E:E2:E1:C5:93TCP5949085
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 56:6E:E2:E1:C5:93/None]
+[1mCommon ingress selector:[0m ETH_DST:56:6E:E2:E1:C5:93, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:85, TCP_DST:59490
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 56:6E:E2:E1:C5:93/None
+
+[1mId:[0m 0xa
+[1mState:[0m INSTALLED
+[1mKey:[0m D6:BD:16:8B:27:43/None12:33:33:CE:C5:6A/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D6:BD:16:8B:27:43/None, 12:33:33:CE:C5:6A/None]
+[1mCommon ingress selector:[0m ETH_DST:12:33:33:CE:C5:6A, ETH_SRC:D6:BD:16:8B:27:43, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D6:BD:16:8B:27:43/None
+[1mDestination [0mhost:[0m 12:33:33:CE:C5:6A/None
+
+[1mId:[0m 0xf6
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/NoneDE:8C:AE:CC:24:60/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, DE:8C:AE:CC:24:60/None]
+[1mCommon ingress selector:[0m ETH_DST:DE:8C:AE:CC:24:60, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m DE:8C:AE:CC:24:60/None
+
+[1mId:[0m 0x2d2
+[1mState:[0m INSTALLED
+[1mKey:[0m 1A:D8:A6:5E:96:11/None5E:F3:86:78:2A:A5/None10.0.0.41A:D8:A6:5E:96:1110.0.0.135E:F3:86:78:2A:A5TCP8453656
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [1A:D8:A6:5E:96:11/None, 5E:F3:86:78:2A:A5/None]
+[1mCommon ingress selector:[0m ETH_DST:5E:F3:86:78:2A:A5, ETH_SRC:1A:D8:A6:5E:96:11, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:53656, TCP_DST:84
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 1A:D8:A6:5E:96:11/None
+[1mDestination [0mhost:[0m 5E:F3:86:78:2A:A5/None
+
+[1mId:[0m 0x321
+[1mState:[0m INSTALLED
+[1mKey:[0m DE:8C:AE:CC:24:60/None3E:B9:75:D7:A9:1E/None10.0.0.10DE:8C:AE:CC:24:6010.0.0.63E:B9:75:D7:A9:1ETCP5560286
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [DE:8C:AE:CC:24:60/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:DE:8C:AE:CC:24:60, ETH_TYPE:ipv4, IP_PROTO:6, TCP_SRC:86, TCP_DST:55602
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m DE:8C:AE:CC:24:60/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+
+[1mId:[0m 0x177
+[1mState:[0m INSTALLED
+[1mKey:[0m D2:64:F5:F5:87:01/None5A:97:68:6C:74:BC/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [D2:64:F5:F5:87:01/None, 5A:97:68:6C:74:BC/None]
+[1mCommon ingress selector:[0m ETH_DST:5A:97:68:6C:74:BC, ETH_SRC:D2:64:F5:F5:87:01, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m D2:64:F5:F5:87:01/None
+[1mDestination [0mhost:[0m 5A:97:68:6C:74:BC/None
+
+[1mId:[0m 0x14b
+[1mState:[0m INSTALLED
+[1mKey:[0m 12:33:33:CE:C5:6A/None3E:B9:75:D7:A9:1E/Nonearp
+[1mIntent type:[0m HostToHostIntent
+[1mApplication Id:[0m org.onosproject.nifwd_combined
+[1mLeader Id:[0m 127.0.0.1
+[1mResources:[0m [12:33:33:CE:C5:6A/None, 3E:B9:75:D7:A9:1E/None]
+[1mCommon ingress selector:[0m ETH_DST:3E:B9:75:D7:A9:1E, ETH_SRC:12:33:33:CE:C5:6A, ETH_TYPE:arp
+[1mTreatment:[0m [NOACTION]
+[1mConstraints:[0m [LinkTypeConstraint{inclusive=false, types=[OPTICAL]}]
+[1mSource host:[0m 12:33:33:CE:C5:6A/None
+[1mDestination [0mhost:[0m 3E:B9:75:D7:A9:1E/None
+

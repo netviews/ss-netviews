@@ -1,0 +1,12 @@
+{
+  "server": [
+    {"h13": [
+    	"qperf -lp 55555 >> /tmp/experiments/server_latency.log &"
+    ]}
+  ],
+  "client": [
+    {"h10": [
+	"qperf 10.0.0.13 -lp 55555 tcp_bw tcp_lat -t 10 >> /tmp/experiments/client_latency.log &"
+    ]}
+  ]
+}

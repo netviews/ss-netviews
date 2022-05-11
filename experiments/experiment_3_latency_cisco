@@ -1,0 +1,25 @@
+{
+  "server": [
+    {"sv1": [
+    ]},
+    {"sv2": [
+    ]},
+    {"sv3": [ 
+    ]},
+    {"sv4": [ 
+    ]}
+  ],
+  "client": [
+    {"h1": [
+      "mtr -n -l -P 81 -T -c 60 10.0.0.5 >> /tmp/experiments/client_latency_1_1.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.6 >> /tmp/experiments/client_latency_1_2.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.7 >> /tmp/experiments/client_latency_1_3.log &"
+    ]},
+    {"h2": [
+    ]},
+    {"h3": [
+    ]},
+    {"h4": [
+    ]}
+  ]
+}

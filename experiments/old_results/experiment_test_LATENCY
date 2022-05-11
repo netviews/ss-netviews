@@ -1,0 +1,12 @@
+{
+  "server": [
+    {"h13": [
+      "iperf3 -s -p 80 >& /tmp/experiments/server_throughput.log &"
+    ]}
+  ],
+  "client": [
+    {"h10": [
+      "mtr --report -P 80 -T -Z 10 10.0.0.13 >> /tmp/experiments/client_latency.log &"
+    ]}
+  ]
+}

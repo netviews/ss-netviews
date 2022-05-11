@@ -1,0 +1,63 @@
+{
+  "server": [
+    {"h1": [
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_1_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_1_6.log &",
+      "iperf3 -s -p 87 >& /tmp/experiments/server_throughput_1_7.log &",
+      "iperf3 -s -p 88 >& /tmp/experiments/server_throughput_1_8.log &",
+      "iperf3 -s -p 89 >& /tmp/experiments/server_throughput_1_9.log &",
+      "iperf3 -s -p 90 >& /tmp/experiments/server_throughput_1_10.log &",
+      "iperf3 -s -p 91 >& /tmp/experiments/server_throughput_1_11.log &"
+    ]},
+    {"h2": [
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_2_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_2_6.log &",
+      "iperf3 -s -p 87 >& /tmp/experiments/server_throughput_2_7.log &",
+      "iperf3 -s -p 88 >& /tmp/experiments/server_throughput_2_8.log &",
+      "iperf3 -s -p 89 >& /tmp/experiments/server_throughput_2_9.log &",
+      "iperf3 -s -p 90 >& /tmp/experiments/server_throughput_2_10.log &",
+      "iperf3 -s -p 91 >& /tmp/experiments/server_throughput_2_11.log &"
+    ]},
+    {"h3": [ 
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_3_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_3_6.log &",
+      "iperf3 -s -p 87 >& /tmp/experiments/server_throughput_3_7.log &",
+      "iperf3 -s -p 88 >& /tmp/experiments/server_throughput_3_8.log &",
+      "iperf3 -s -p 89 >& /tmp/experiments/server_throughput_3_9.log &",
+      "iperf3 -s -p 90 >& /tmp/experiments/server_throughput_3_10.log &",
+      "iperf3 -s -p 91 >& /tmp/experiments/server_throughput_3_11.log &"
+    ]},
+    {"h4": [
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_4_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_4_6.log &",
+      "iperf3 -s -p 87 >& /tmp/experiments/server_throughput_4_7.log &",
+      "iperf3 -s -p 88 >& /tmp/experiments/server_throughput_4_8.log &",
+      "iperf3 -s -p 89 >& /tmp/experiments/server_throughput_4_9.log &",
+      "iperf3 -s -p 90 >& /tmp/experiments/server_throughput_4_10.log &",
+      "iperf3 -s -p 91 >& /tmp/experiments/server_throughput_4_11.log &" 
+    ]},
+    {"h12": [ 
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_12_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_12_6.log &",
+      "iperf3 -s -p 87 >& /tmp/experiments/server_throughput_12_7.log &",
+      "iperf3 -s -p 88 >& /tmp/experiments/server_throughput_12_8.log &",
+      "iperf3 -s -p 89 >& /tmp/experiments/server_throughput_12_9.log &",
+      "iperf3 -s -p 90 >& /tmp/experiments/server_throughput_12_10.log &",
+      "iperf3 -s -p 91 >& /tmp/experiments/server_throughput_12_11.log &"
+    ]},
+    {"h13": [
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_13_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_13_6.log &",
+      "iperf3 -s -p 87 >& /tmp/experiments/server_throughput_13_7.log &",
+      "iperf3 -s -p 88 >& /tmp/experiments/server_throughput_13_8.log &",
+      "iperf3 -s -p 89 >& /tmp/experiments/server_throughput_13_9.log &",
+      "iperf3 -s -p 90 >& /tmp/experiments/server_throughput_13_10.log &",
+      "iperf3 -s -p 91 >& /tmp/experiments/server_throughput_13_11.log &" 
+    ]}
+  ],
+  "client": [
+    {"h5": [
+      "iperf3 -c 10.0.0.1 -p 85 -P 1 -V -t 60 >> /tmp/experiments/client_throughput_5_1.log &"
+    ]}
+  ]
+}

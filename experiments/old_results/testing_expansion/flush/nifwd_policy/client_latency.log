@@ -1,0 +1,60 @@
+Start: 2020-10-01T17:02:34-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1003. 1003. 1003. 1003.   0.0
+Start: 2020-10-01T17:02:50-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1010. 1010. 1010. 1010.   0.0
+Start: 2020-10-01T17:03:05-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1018. 1018. 1018. 1018.   0.0
+Start: 2020-10-01T17:03:21-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1002. 1002. 1002. 1002.   0.0
+Start: 2020-10-01T17:03:37-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1018. 1018. 1018. 1018.   0.0
+Start: 2020-10-01T17:03:53-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1002. 1002. 1002. 1002.   0.0
+Start: 2020-10-01T17:04:08-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1029. 1029. 1029. 1029.   0.0
+Start: 2020-10-01T17:04:24-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1028. 1028. 1028. 1028.   0.0
+Start: 2020-10-01T17:04:40-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1017. 1017. 1017. 1017.   0.0
+Start: 2020-10-01T17:04:56-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1020. 1020. 1020. 1020.   0.0
+Start: 2020-10-01T17:05:12-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1011. 1011. 1011. 1011.   0.0
+Start: 2020-10-01T17:05:27-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1021. 1021. 1021. 1021.   0.0
+Start: 2020-10-01T17:05:43-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1007. 1007. 1007. 1007.   0.0
+Start: 2020-10-01T17:05:59-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1020. 1020. 1020. 1020.   0.0
+Start: 2020-10-01T17:06:14-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1006. 1006. 1006. 1006.   0.0
+Start: 2020-10-01T17:06:30-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1005. 1005. 1005. 1005.   0.0
+Start: 2020-10-01T17:06:46-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1020. 1020. 1020. 1020.   0.0
+Start: 2020-10-01T17:07:02-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1009. 1009. 1009. 1009.   0.0
+Start: 2020-10-01T17:07:18-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1023. 1023. 1023. 1023.   0.0
+Start: 2020-10-01T17:07:33-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1  1023. 1023. 1023. 1023.   0.0

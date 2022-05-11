@@ -1,0 +1,20 @@
+fwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_ref -r 50 -s 70 -d ./throughput_ref_topo_ap/fwd/ -a org.onosproject.fwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_ref -r 50 -s 70 -d ./throughput_ref_topo_ap/ifwd/ -a org.onosproject.ifwd
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_ref -r 50 -s 70 -d ./throughput_ref_topo_ap/nifwd/ -a org.onosproject.nifwd_combined
+fwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_ref -r 50 -s 70 -d ./throughput_ref_topo_ap/fwd/ -a org.onosproject.fwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_ref -r 50 -s 70 -d ./throughput_ref_topo_ap/ifwd/ -a org.onosproject.ifwd
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_ref -r 50 -s 70 -d ./throughput_ref_topo_ap/nifwd/ -a org.onosproject.nifwd_combined
+fwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/fwd/1_host/ -a org.onosproject.fwd
+fwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/fwd/all_host/ -a org.onosproject.fwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/ifwd/no_flush/1_host/ -a org.onosproject.ifwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/ifwd/no_flush/all_host/ -a org.onosproject.ifwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/ifwd/flush/1_host/ -a org.onosproject.ifwd -f
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/ifwd/flush/all_host/ -a org.onosproject.ifwd -f
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/ifwd/half_flush/1_host/ -a org.onosproject.ifwd -f -i 2
+ifwd:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/ifwd/half_flush/all_host/ -a org.onosproject.ifwd -f -i 2
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/nifwd/no_flush/1_host/ -a org.onosproject.nifwd_combined
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/nifwd/no_flush/all_host/ -a org.onosproject.nifwd_combined
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/nifwd/flush/1_host/ -a org.onosproject.nifwd_combined -f
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/nifwd/flush/all_host/ -a org.onosproject.nifwd_combined -f
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_1_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/nifwd/half_flush/1_host/ -a org.onosproject.nifwd_combined -f -i 2
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ref/topo-ref.json -c run -e experiment_all_latency_ref -r 50 -s 70 -d ./latency_ref_topo_ap/nifwd/half_flush/all_host/ -a org.onosproject.nifwd_combined -f -i 2

@@ -1,0 +1,2 @@
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 5 -s 70 -d ./rerun_03_05_21/cisco -a org.onosproject.nifwd_combined
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_03_05_21/cisco -a org.onosproject.nifwd_combined

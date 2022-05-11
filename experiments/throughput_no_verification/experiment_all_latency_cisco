@@ -1,0 +1,54 @@
+{
+  "server": [
+    {"sv1": [
+    ]},
+    {"sv2": [
+    ]},
+    {"sv3": [ 
+    ]},
+    {"sv4": [ 
+    ]}
+  ],
+  "client": [
+    {"h1": [
+      "mtr -n -l -P 81 -T -c 60 10.0.0.5 >> /tmp/experiments/client_latency_1_1.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.6 >> /tmp/experiments/client_latency_1_2.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.7 >> /tmp/experiments/client_latency_1_3.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.8 >> /tmp/experiments/client_latency_1_4.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.9 >> /tmp/experiments/client_latency_1_5.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.10 >> /tmp/experiments/client_latency_1_6.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.11 >> /tmp/experiments/client_latency_1_7.log &",
+      "mtr -n -l -P 81 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_1_8.log &"
+    ]},
+    {"h2": [
+      "mtr -n -l -P 82 -T -c 60 10.0.0.5 >> /tmp/experiments/client_latency_2_1.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.6 >> /tmp/experiments/client_latency_2_2.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.7 >> /tmp/experiments/client_latency_2_3.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.8 >> /tmp/experiments/client_latency_2_4.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.9 >> /tmp/experiments/client_latency_2_5.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.10 >> /tmp/experiments/client_latency_2_6.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.11 >> /tmp/experiments/client_latency_2_7.log &",
+      "mtr -n -l -P 82 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_2_8.log &"
+    ]},
+    {"h3": [
+      "mtr -n -l -P 83 -T -c 60 10.0.0.5 >> /tmp/experiments/client_latency_3_1.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.6 >> /tmp/experiments/client_latency_3_2.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.7 >> /tmp/experiments/client_latency_3_3.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.8 >> /tmp/experiments/client_latency_3_4.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.9 >> /tmp/experiments/client_latency_3_5.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.10 >> /tmp/experiments/client_latency_3_6.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.11 >> /tmp/experiments/client_latency_3_7.log &",
+      "mtr -n -l -P 83 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_3_8.log &"
+    ]},
+    {"h4": [
+      "mtr -n -l -P 84 -T -c 60 10.0.0.5 >> /tmp/experiments/client_latency_4_1.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.6 >> /tmp/experiments/client_latency_4_2.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.7 >> /tmp/experiments/client_latency_4_3.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.8 >> /tmp/experiments/client_latency_4_4.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.9 >> /tmp/experiments/client_latency_4_5.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.10 >> /tmp/experiments/client_latency_4_6.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.11 >> /tmp/experiments/client_latency_4_7.log &",
+      "mtr -n -l -P 84 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_4_8.log &"
+    ]}
+  ]
+}

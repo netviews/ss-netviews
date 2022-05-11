@@ -1,0 +1,30 @@
+{
+  "server": [
+    {"sv1": [
+    ]},
+    {"sv2": [
+    ]},
+    {"sv3": [ 
+    ]},
+    {"sv4": [ 
+    ]}
+  ],
+  "client": [
+    {"h1": [
+      "for i in $(seq 6); do tcptraceroute 10.0.0.5 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_5.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.6 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_6.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.7 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_7.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.8 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_8.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.9 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_9.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.10 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_10.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.11 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_11.log &",
+      "for i in $(seq 6); do tcptraceroute 10.0.0.12 81 -q 10 -w 1; sleep 1;done >> /tmp/experiments/client_latency_1_12.log &"
+    ]},
+    {"h2": [
+    ]},
+    {"h3": [
+    ]},
+    {"h4": [
+    ]}
+  ]
+}

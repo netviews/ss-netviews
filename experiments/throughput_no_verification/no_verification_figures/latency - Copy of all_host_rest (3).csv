@@ -1,0 +1,13 @@
+application,topology,latency,latency_ms
+ONOS fwd,Cisco,208.3581886,0.2083581886
+ONOS ifwd,Cisco,210.0291902,0.2100291902
+SDNetViews (w/ verification),Cisco,247.1234971,0.2471234971
+SDNetViews (w/out verification),Cisco,214.8442152,0.2148442152
+ONOS fwd,RATAPT,207.3309746,0.2073309746
+ONOS ifwd,RATAPT,205.8771716,0.2058771716
+SDNetViews (w/ verification),RATAPT,230.904374,0.230904374
+SDNetViews (w/out verification),RATAPT,209.76891,0.20976891
+ONOS fwd,Reference,225.98,0.22598
+ONOS ifwd,Reference,228.1039709,0.2281039709
+SDNetViews (w/ verification),Reference,340.397703,0.340397703
+SDNetViews (w/out verification),Reference,233.0741131,0.2330741131

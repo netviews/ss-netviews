@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+
+import argparse
+import matplotlib.pyplot as plt
+import statistics
+import numpy as np
+import os
+import csv
+
+output = ''
+raw = False
+
+def main():
+    parser = argparse.ArgumentParser(
+        description = 'Convert mtr to CSV')
+    parser.add_argument('-f', '--file', action = 'append', required = True,
+        help = 'the result file(s) to parse for graphing')
+    parser.add_argument('-n', '--name', type = str, required = True,
+        action = 'append', help = 'the respective axis name of the corresponding result file')
+    parser.add_argument('-o', '--output', type = str, required = True,
+        help = 'output file path (e.g. "output.csv")')
+    parser.add_argument('-r', '--raw', action = 'store_true',
+        help = 'mtr result files are in raw format')
+    args = parser.parse_args()
+
+    files = args.file#[os.path.join(os.getcwd(), file_path) for file_path in args.file]
+    names = args.name
+    
+    global output
+    output = args.output
+
+    global raw
+    raw = args.raw
+
+    parse_mtr(files, names)
+
+def parse_mtr(files, names):
+    curr_file = 0
+    csv_values = []
+    
+    #with open('outfile', 'wb') as write_file:
+    #    csv_wrtier = csv.writer(write_file, delimiter = ',')
+    if raw:
+        for file_path in files:
+            file = open(file_path, 'r')
+            line = file.readline()
+            latency_values = []
+            #latency_values.append(names[curr_file])
+            while line:
+                line = line.split()
+                #p 0 219 33009
+                if line and line[0] == 'p' and line[1] == '0':
+                    if line[3] == '33000':
+                        if len(latency_values) > 0:
+                            csv_values.append(latency_values)
+                        latency_values = []
+                        latency_values.append(names[curr_file])
+                    latency_values.append(float(line[2]))
+                line = file.readline()
+            file.close()
+            print(latency_values)
+            csv_values.append(latency_values)
+            curr_file += 1
+
+        
+    else:
+        for file_path in files:
+            file = open(file_path, 'r')
+            line = file.readline()
+            latency_values = []
+            latency_values.append(names[curr_file])
+            while line:
+                line = line.split()
+                if line and line[0] != 'Start:' and line[-1] != 'StDev':
+                    #print(line)
+                    latency_values.append(float(line[5]))
+                line = file.readline()
+            file.close()
+            curr_file += 1
+
+    print(csv_values)
+
+    with open(output, 'w') as write_file:
+        csv_writer = csv.writer(write_file, delimiter = ',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        #for row in csv_values:
+        csv_writer.writerows(csv_values)
+    write_file.close()
+
+
+if __name__ == '__main__':
+    main()

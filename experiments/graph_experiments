@@ -1,0 +1,204 @@
+#!/usr/bin/env python3
+
+import argparse
+import matplotlib.pyplot as plt
+import statistics
+import numpy as np
+import os
+
+output = ''
+prune = False
+raw = False
+initial = False
+
+def main():
+    parser = argparse.ArgumentParser(
+        description = 'Graph NetViews results')
+    parser.add_argument('-c', '--command', type = str, required = True,
+        help = 'type of results to parse (iperf3 or mtr)')
+    parser.add_argument('-f', '--file', nargs = '+', action = 'append', required = True,
+        help = 'the result file(s) to parse for graphing')
+    parser.add_argument('-n', '--name', type = str, required = True,
+        action = 'append', help = 'the respective axis name of the corresponding result file')
+    parser.add_argument('-o', '--output', type = str, required = True,
+        help = 'output file path and type (i.e. throughput.pdf')
+    parser.add_argument('-p', '--prune', action = 'store_true',
+        help = 'prune the data (remove min and max values)')
+    parser.add_argument('-r', '--raw', action = 'store_true',
+        help = 'mtr result files are in raw format')
+    parser.add_argument('-i', '--initial', action = 'store_true',
+        help = 'use only initial RTT (first packet, useful for worse case with flushing)')
+    args = parser.parse_args()
+
+    command = args.command
+    files = args.file#[os.path.join(os.getcwd(), file_path) for file_path in args.file]
+    names = args.name
+    
+    global output
+    output = args.output
+
+    global prune
+    prune = args.prune
+
+    global raw
+    raw = args.raw
+
+    global initial
+    initial = args.initial
+
+    print(files)
+
+    if command == 'iperf3':
+        graph_iperf3(files, names)
+    elif command == 'mtr':
+        graph_mtr(files, names)
+    else:
+        print('Invalid command, currently iperf3 and mtr are supported.')
+
+def graph_iperf3(files, names):
+    curr_group = 0
+    curr_run = 0
+    num_runs = 0
+    sender_graph_values = {}
+    receiver_graph_values = {}
+    
+    for file_group in files:
+        sender_values = []
+        receiver_values = []
+        curr_flow = 0
+        for file_path in file_group:
+            file = open(file_path, 'r')
+            line = file.readline()
+            curr_flow = 0
+            num_runs = 0
+            #sender_values = []
+            #receiver_values = []
+            while line:
+                line = line.split()
+                if line and line[-1] == 'sender':
+                    num_runs += 1
+                    if len(sender_values) <= curr_flow:
+                        sender_values.append([])
+                    sender_values[curr_flow].append(float(line[6]))
+                elif line and line[-1] == 'receiver':
+                    if len(receiver_values) <= curr_flow:
+                        receiver_values.append([])
+                    receiver_values[curr_flow].append(float(line[6]))
+                    curr_flow += 1
+                line = file.readline()
+            file.close()
+
+        if prune:
+            for i in range(curr_run):
+                sender_values.remove(max(sender_values[i]))
+                sender_values.remove(min(sender_values[i]))
+                receiver_values.remove(max(receiver_values[i]))
+                receiver_values.remove(min(receiver_values[i]))
+
+        #print(sender_values)
+
+        sender_sums = []
+        receiver_sums = []
+        for run in range(num_runs):
+            sender_sums.append(0)
+            receiver_sums.append(0)
+            #print(run)
+            #print(sender_sums)
+            sender_sums[run] = sum(sender_values[run])
+            #for host in sender_values:
+            #    sender_sums[run] += host[run]
+            #for host in receiver_values:
+            #    receiver_sums[run] += host[run]
+
+        #print(sender_sums)
+
+        print(sender_sums)
+        sender_graph_values[names[curr_group]] = statistics.mean(sender_sums)
+        receiver_graph_values[names[curr_group]] = statistics.mean(receiver_sums)
+        curr_group += 1
+
+    #fig = plt.figure()
+    #ax = fig.add_axes([0,0,1,1])
+    y_pos = np.arange(len(sender_graph_values.keys()))
+    plt.bar(y_pos, sender_graph_values.values(), align = 'center', alpha = 0.5)
+    plt.xticks(y_pos, sender_graph_values.keys())
+    plt.ylabel('Throughput (Mbps)')
+    plt.title('Average Throughput')
+
+    bottom, top = plt.ylim()
+    plt.ylim((bottom, top + 25))
+    
+    print('Results:')
+    for app in sender_graph_values:
+        print('\t' + app + ': ' + str(sender_graph_values[app]) + ' Mbps')
+
+    plt.savefig(output)
+
+def graph_mtr(files, names):
+    curr_file = 0
+    sender_graph_values = {}
+
+    if raw:
+        for file_group in files:
+            for file_path in file_group:
+                file = open(file_path, 'r')
+                line = file.readline()
+                latency_values = []
+                while line:
+                    line = line.split()
+                    #p 0 219 33009
+                    if line and line[0] == 'p' and line[1] == '0':
+                        # MTR is currently using 33000 as the min sequence number
+                        if (not initial) or (initial and line[3] == '33000'):
+                            latency_values.append(float(line[2]))
+                    line = file.readline()
+                file.close()
+                #print(latency_values)
+                if prune:
+                    latency_values.remove(max(latency_values))
+                    latency_values.remove(min(latency_values))
+                # raw output is in microseconds (usec), THIS IS IMPROPERLY DOCUMENTED IN MTR
+                sender_graph_values[names[curr_file]] = (statistics.mean(latency_values) / 1000)
+                curr_file += 1
+
+        
+    else:
+        for file_path in files:
+            file = open(file_path, 'r')
+            line = file.readline()
+            latency_values = []
+            while line:
+                line = line.split()
+                if line and line[0] != 'Start:' and line[-1] != 'StDev':
+                    #print(line)
+                    latency_values.append(float(line[5]))
+                line = file.readline()
+            file.close()
+            if prune:
+                latency_values.remove(max(latency_values))
+                latency_values.remove(min(latency_values))
+            sender_graph_values[names[curr_file]] = statistics.mean(latency_values)
+            curr_file += 1
+
+    #fig = plt.figure()
+    #ax = fig.add_axes([0,0,1,1])
+    y_pos = np.arange(len(sender_graph_values.keys()))
+    plt.bar(y_pos, sender_graph_values.values(), align = 'center', alpha = 0.5)
+    plt.xticks(y_pos, sender_graph_values.keys())
+    plt.ylabel('RTT (ms)')
+    plt.xlabel('Application')
+    plt.title('Average RTT')
+    #plt.title('Average Initial RTT')
+
+    bottom, top = plt.ylim()
+    plt.ylim((bottom, top + 2))
+
+    print('Results:')
+    for app in sender_graph_values:
+        print('\t' + app + ': ' + str(sender_graph_values[app]) + ' ms')
+
+    #plt.show()
+    plt.savefig(output)
+
+if __name__ == '__main__':
+    main()

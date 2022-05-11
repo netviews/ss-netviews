@@ -1,0 +1,1 @@
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ratapt/topo-ratapt.json -c run -e experiment_all_latency_ratapt -r 50 -s 70 -d ./latency_ratapt_topo_ap/nifwd/half_flush/all_host/ -a org.onosproject.nifwd_combined -f -i 2

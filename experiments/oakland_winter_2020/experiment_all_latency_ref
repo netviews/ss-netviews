@@ -1,0 +1,74 @@
+{
+  "server": [
+    {"h1": [
+    ]},
+    {"h2": [
+    ]},
+    {"h3": [ 
+    ]},
+    {"h4": [
+    ]},
+    {"h12": [ 
+    ]},
+    {"h13": [
+    ]}
+  ],
+  "client": [
+    {"h5": [
+      "mtr -n -l -P 85 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_5_1.log &",
+      "mtr -n -l -P 85 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_5_2.log &",
+      "mtr -n -l -P 85 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_5_3.log &",
+      "mtr -n -l -P 85 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_5_4.log &",
+      "mtr -n -l -P 85 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_5_12.log &",
+      "mtr -n -l -P 85 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_5_13.log &"
+    ]},
+    {"h6": [
+      "mtr -n -l -P 86 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_6_1.log &",
+      "mtr -n -l -P 86 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_6_2.log &",
+      "mtr -n -l -P 86 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_6_3.log &",
+      "mtr -n -l -P 86 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_6_4.log &",
+      "mtr -n -l -P 86 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_6_12.log &",
+      "mtr -n -l -P 86 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_6_13.log &"
+    ]},
+    {"h7": [
+      "mtr -n -l -P 87 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_7_1.log &",
+      "mtr -n -l -P 87 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_7_2.log &",
+      "mtr -n -l -P 87 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_7_3.log &",
+      "mtr -n -l -P 87 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_7_4.log &",
+      "mtr -n -l -P 87 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_7_12.log &",
+      "mtr -n -l -P 87 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_7_13.log &"
+    ]},
+    {"h8": [
+      "mtr -n -l -P 88 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_8_1.log &",
+      "mtr -n -l -P 88 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_8_2.log &",
+      "mtr -n -l -P 88 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_8_3.log &",
+      "mtr -n -l -P 88 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_8_4.log &",
+      "mtr -n -l -P 88 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_8_12.log &",
+      "mtr -n -l -P 88 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_8_13.log &"
+    ]},
+    {"h9": [
+      "mtr -n -l -P 89 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_9_1.log &",
+      "mtr -n -l -P 89 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_9_2.log &",
+      "mtr -n -l -P 89 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_9_3.log &",
+      "mtr -n -l -P 89 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_9_4.log &",
+      "mtr -n -l -P 89 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_9_12.log &",
+      "mtr -n -l -P 89 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_9_13.log &"
+    ]},
+    {"h10": [
+      "mtr -n -l -P 90 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_10_1.log &",
+      "mtr -n -l -P 90 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_10_2.log &",
+      "mtr -n -l -P 90 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_10_3.log &",
+      "mtr -n -l -P 90 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_10_4.log &",
+      "mtr -n -l -P 90 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_10_12.log &",
+      "mtr -n -l -P 90 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_10_13.log &"
+    ]},
+    {"h11": [
+      "mtr -n -l -P 91 -T -c 60 10.0.0.1 >> /tmp/experiments/client_latency_11_1.log &",
+      "mtr -n -l -P 91 -T -c 60 10.0.0.2 >> /tmp/experiments/client_latency_11_2.log &",
+      "mtr -n -l -P 91 -T -c 60 10.0.0.3 >> /tmp/experiments/client_latency_11_3.log &",
+      "mtr -n -l -P 91 -T -c 60 10.0.0.4 >> /tmp/experiments/client_latency_11_4.log &",
+      "mtr -n -l -P 91 -T -c 60 10.0.0.12 >> /tmp/experiments/client_latency_11_12.log &",
+      "mtr -n -l -P 91 -T -c 60 10.0.0.13 >> /tmp/experiments/client_latency_11_13.log &"
+    ]}
+  ]
+}

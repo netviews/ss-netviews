@@ -1,0 +1,11 @@
+{
+  "server": [
+    {"h13": [
+    ]}
+  ],
+  "client": [
+    {"h10": [
+      "mtr -n -l -P 56789 -T -c 10 10.0.0.13 >> /tmp/experiments/client_latency.log &"
+    ]}
+  ]
+}

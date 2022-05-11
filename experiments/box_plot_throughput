@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+
+import argparse
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import statistics
+from textwrap import wrap
+from matplotlib import rcParams
+
+output = ''
+
+def main():
+    parser = argparse.ArgumentParser(
+        description = 'Convert mtr to CSV')
+    parser.add_argument('-f', '--file', type = str, required = True,
+        help = 'the result file(s) to parse for graphing')
+    parser.add_argument('-o', '--output', type = str, required = True,
+        help = 'output file path (e.g. "output.csv")')
+    parser.add_argument('-t', '--title', type = str, required = True,
+        help = 'figure title start (e.g. "Throughput" for "Throughput Host 1 Server 1")')
+    parser.add_argument('-r', '--raw', action = 'store_true',
+        help = 'mtr result files are in raw format')
+    args = parser.parse_args()
+
+    file = args.file
+    title = args.title
+
+    global output
+    output = args.output
+
+    box_plot(file, title)
+
+def box_plot(file, title):
+    rcParams['figure.figsize'] = 5,8
+    rcParams['font.size'] = 18
+
+    data=pd.read_csv(file)
+    labels = data['application']
+    labels = ['\n'.join(wrap(l, 5)) for l in labels]
+    #print(labels)
+    for i in range(len(labels)):
+        if data['application'][i] != 'SDNetViews':
+            data['application'][i] = labels[i]
+    #labels[2] = (data['application'])[2]
+    #data['application'] = labels
+
+    '''sender_values = {}
+    receiver_values = []
+    curr_file = 0
+    for file_path in files:
+        file = open(file_path, 'r')
+        line = file.readline()
+        #sender_values = []
+        #receiver_values = []
+        while line:
+            line = line.split()
+            if line and line[-1] == 'sender':
+                if len(sender_values) <= curr_file:
+                    sender_values[names[curr_file]] = []
+                sender_values[names[curr_file]].append(float(line[6]))
+            elif line and line[-1] == 'receiver':
+                if len(receiver_values) <= curr_file:
+                    receiver_values.append([])
+                receiver_values[curr_file].append(float(line[6]))
+            line = file.readline()
+        file.close()
+        curr_file += 1
+
+    print(sender_values)
+    print(receiver_values)
+    '''
+    first = True
+    for column in data.columns:
+        if first:
+            first = False
+        else:
+            plt.clf()
+            #sns.boxplot(x = 'application', y = 'throughput', data = data, palette = 'Set2')
+            sns.boxplot(x = 'application', y = column, data = data)
+
+            save_title = title
+            if column[1] == '_':
+                save_title += ' Host ' + column[0:1] + ' to Server ' + column[2:]
+            else:
+                save_title = column + ' ' + title
+
+            #plt.title(save_title)
+            plt.ylabel('Throughput (Mbps)')
+            plt.xlabel('Application')
+            plt.gca().yaxis.grid(True)
+            plt.gca().set_ylim([2820, 2940])
+            #plt.gca().set_ylim([1860, 1980])
+            plt.savefig(output + column + '.pdf', bbox_inches='tight')
+
+if __name__ == '__main__':
+    main()

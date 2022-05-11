@@ -1,0 +1,28 @@
+{
+  "server": [
+    {"sv1": [
+      "iperf3 -s -p 81 >& /tmp/experiments/server_throughput_1_1.log &"
+    ]},
+    {"sv2": [
+    ]},
+    {"sv3": [ 
+    ]},
+    {"sv4": [ 
+    ]}
+  ],
+  "client": [
+    {"h1": [
+      "tcptraceroute -q 60 10.0.0.10 81 >> /tmp/experiments/client_latency_1_1.log &"
+    ]},
+    {"h2": [
+    ]},
+    {"h3": [
+    ]},
+    {"h4": [
+    ]},
+    {"h5": [
+    ]},
+    {"h6": [
+    ]}
+  ]
+}

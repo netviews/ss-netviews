@@ -1,0 +1,60 @@
+Start: 2020-10-01T16:56:03-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   72.0  72.0  72.0  72.0   0.0
+Start: 2020-10-01T16:56:19-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   23.8  23.8  23.8  23.8   0.0
+Start: 2020-10-01T16:56:35-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   10.9  10.9  10.9  10.9   0.0
+Start: 2020-10-01T16:56:51-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   11.2  11.2  11.2  11.2   0.0
+Start: 2020-10-01T16:57:07-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   11.1  11.1  11.1  11.1   0.0
+Start: 2020-10-01T16:57:22-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   11.3  11.3  11.3  11.3   0.0
+Start: 2020-10-01T16:57:38-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   11.4  11.4  11.4  11.4   0.0
+Start: 2020-10-01T16:57:54-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   13.4  13.4  13.4  13.4   0.0
+Start: 2020-10-01T16:58:10-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   16.5  16.5  16.5  16.5   0.0
+Start: 2020-10-01T16:58:25-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   11.7  11.7  11.7  11.7   0.0
+Start: 2020-10-01T16:58:41-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    9.7   9.7   9.7   9.7   0.0
+Start: 2020-10-01T16:58:57-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    8.7   8.7   8.7   8.7   0.0
+Start: 2020-10-01T16:59:12-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    9.3   9.3   9.3   9.3   0.0
+Start: 2020-10-01T16:59:28-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   10.0  10.0  10.0  10.0   0.0
+Start: 2020-10-01T16:59:44-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    8.4   8.4   8.4   8.4   0.0
+Start: 2020-10-01T16:59:59-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    7.8   7.8   7.8   7.8   0.0
+Start: 2020-10-01T17:00:15-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1   10.0  10.0  10.0  10.0   0.0
+Start: 2020-10-01T17:00:31-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    8.5   8.5   8.5   8.5   0.0
+Start: 2020-10-01T17:00:47-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    9.8   9.8   9.8   9.8   0.0
+Start: 2020-10-01T17:01:02-0400
+HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 10.0.0.13                  0.0%     1    9.3   9.3   9.3   9.3   0.0

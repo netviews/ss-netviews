@@ -1,0 +1,53 @@
+#! /usr/bin/env python3
+
+import argparse
+from scapy.all import *
+import sys
+import subprocess
+import pexpect
+import json
+
+def main():
+
+    parser = argparse.ArgumentParser(
+        description = 'Run a NetViews experiment ')
+    parser.add_argument('-m', '--mininet', type = str, required = True,
+        help = 'the path to a Mininet script on which this experiment will run')
+    parser.add_argument('-t', '--topology', type = str, required = True,
+        help = 'the path to a topology to be run on the Mininet script')
+    parser.add_argument('-p', '--optomize', type = bool, default = False,
+        help = 'Install explicit (False) or open (True) return intents. Default is False.')
+    parser.add_argument('-e', '--experiment', type = str, required = True,
+        help = 'the path to the experiment file to run')
+
+    args = parser.parse_args()
+
+    with open(args.experiment) as file:
+        experiment = json.load(file)
+
+    run_experiment(experiment, args.optimize, args.mininet, args.topology)
+
+
+def run_experiment(experiment, optimize, mininet, topology):
+    #process = subprocess.Popen(['python', '/home/dan/Documents/netviews-code-master/Mininet-scripts/script.py', '/home/dan/Documents/netviews-code-master/Mininet-scripts/ref_enterprise_topo.txt', 'run'], stdout = subprocess.PIPE, stdin = subprocess.PIPE)#, stderr = subprocess.PIPE)
+    mininet_call = 'python' + mininet + topology + 'experiment' + experiment
+    process = pexpect.spawn('python /home/dan/Documents/netviews-code-master/Mininet-scripts/script.py /home/dan/Documents/netviews-code-master/Mininet-scripts/ref_enterprise_topo.txt run')
+    server_process = ('h13 iperf3 -s -p 80 >& /tmp/server.log &')#.encode()
+    client_process = ('h10 iperf3 -c 10.0.0.13 -p 80 >& /tmp/client.log &').encode()
+
+    #time.sleep(5)
+    #process.stdin.write(server_process)
+    process.expect('mininet>')
+    #process.sendline(server_process)
+    process.sendline('h13 iperf3 -s -p 80 >& /tmp/server.log &')
+    process.expect('mininet>')
+    time.sleep(20)
+    #process.sendline('h10 iperf3 -c 10.0.0.13 -p 80')
+    #process.expect('test')
+    #process.sendline(client_process)
+    #time.sleep(5)
+    #process.stdin.write(client_process)
+    #time.sleep(15)
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,23 @@
+{
+  "server": [
+    {"sv1": [
+    ]},
+    {"sv2": [
+    ]},
+    {"sv3": [ 
+    ]},
+    {"sv4": [ 
+    ]}
+  ],
+  "client": [
+    {"h1": [
+      "for i in $(seq 60); do tcptraceroute 10.0.0.5 81 -q 1; sleep 1;done >> /tmp/experiments/client_latency_1_1.log &"
+    ]},
+    {"h2": [
+    ]},
+    {"h3": [
+    ]},
+    {"h4": [
+    ]}
+  ]
+}

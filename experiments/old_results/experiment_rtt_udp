@@ -1,0 +1,11 @@
+{
+  "server": [
+    {"h13": [
+    ]}
+  ],
+  "client": [
+    {"h10": [
+      "mtr --report -P 80 --udp -c 1 10.0.0.13 >> /tmp/experiments/client_latency.log &"
+    ]}
+  ]
+}

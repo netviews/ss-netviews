@@ -1,0 +1,15 @@
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./throughput_cisco_topo/nifwd/ -a org.onosproject.nifwd_combined
+fwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/fwd/1_host/ -a org.onosproject.fwd
+fwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/fwd/all_host/ -a org.onosproject.fwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/no_flush/1_host/ -a org.onosproject.ifwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/no_flush/all_host/ -a org.onosproject.ifwd
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/flush/1_host/ -a org.onosproject.ifwd -f
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/flush/all_host/ -a org.onosproject.ifwd -f
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/half_flush/1_host/ -a org.onosproject.ifwd -f -i 2
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/half_flush/all_host/ -a org.onosproject.ifwd -f -i 2
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/nifwd/no_flush/1_host/ -a org.onosproject.nifwd_combined
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/no_flush/all_host/ -a org.onosproject.nifwd_combined
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/flush/1_host/ -a org.onosproject.nifwd_combined -f
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/flush/all_host/ -a org.onosproject.nifwd_combined -f
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_1_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/half_flush/1_host/ -a org.onosproject.nifwd_combined -f -i 2
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_latency_cisco -r 50 -s 70 -d ./latency_cisco_topo/ifwd/half_flush/all_host/ -a org.onosproject.nifwd_combined -f -i 2

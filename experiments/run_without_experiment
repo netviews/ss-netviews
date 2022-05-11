@@ -1,0 +1,36 @@
+{
+  "server": [
+    {"h12": [
+      "python -m SimpleHTTPServer 22 &"
+    ]},
+    {"h13": [
+      "python -m SimpleHTTPServer 22 &"
+    ]},
+    {"h3": [
+      "python -m SimpleHTTPServer 9100 &"
+    ]},
+    {"h4": [
+      "python -m SimpleHTTPServer 5060 &"
+    ]},
+    {"h1": [
+      "python -m SimpleHTTPServer 80 &"
+    ]},
+    {"h2": [
+      "python -m SimpleHTTPServer 80 &"
+    ]}
+  ],
+  "client": [
+    {"h5": [
+      "nmap -p 80 10.0.0.1-13 >> /tmp/experiments/client_nmap_h5_80.log &",
+      "nmap -p 22 10.0.0.1-13 >> /tmp/experiments/client_nmap_h5_22.log &",
+      "nmap -p 9100 10.0.0.1-13 >> /tmp/experiments/client_nmap_h5_9100.log &",
+      "nmap -p 5060 10.0.0.1-13 >> /tmp/experiments/client_nmap_h5_5060.log &"
+    ]},
+    {"h10": [
+      "nmap -p 80 10.0.0.1-13 >> /tmp/experiments/client_nmap_h10_80.log &",
+      "nmap -p 22 10.0.0.1-13 >> /tmp/experiments/client_nmap_h10_22.log &",
+      "nmap -p 9100 10.0.0.1-13 >> /tmp/experiments/client_nmap_h10_9100.log &",
+      "nmap -p 5060 10.0.0.1-13 >> /tmp/experiments/client_nmap_h10_5060.log &"
+    ]}
+  ]
+}

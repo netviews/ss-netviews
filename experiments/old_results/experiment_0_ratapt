@@ -1,0 +1,50 @@
+{
+  "server": [
+    {"sv1": [
+      "iperf3 -s -p 81 >& /tmp/experiments/server_throughput_1_1.log &",
+      "iperf3 -s -p 82 >& /tmp/experiments/server_throughput_1_2.log &",
+      "iperf3 -s -p 83 >& /tmp/experiments/server_throughput_1_3.log &",
+      "iperf3 -s -p 84 >& /tmp/experiments/server_throughput_1_4.log &",
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_1_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_1_6.log &"
+    ]},
+    {"sv2": [
+      "iperf3 -s -p 81 >& /tmp/experiments/server_throughput_2_1.log &",
+      "iperf3 -s -p 82 >& /tmp/experiments/server_throughput_2_2.log &",
+      "iperf3 -s -p 83 >& /tmp/experiments/server_throughput_2_3.log &",
+      "iperf3 -s -p 84 >& /tmp/experiments/server_throughput_2_4.log &",
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_2_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_2_6.log &"
+    ]},
+    {"sv3": [ 
+      "iperf3 -s -p 81 >& /tmp/experiments/server_throughput_3_1.log &",
+      "iperf3 -s -p 82 >& /tmp/experiments/server_throughput_3_2.log &",
+      "iperf3 -s -p 83 >& /tmp/experiments/server_throughput_3_3.log &",
+      "iperf3 -s -p 84 >& /tmp/experiments/server_throughput_3_4.log &",
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_3_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_3_6.log &"
+    ]},
+    {"sv4": [ 
+      "iperf3 -s -p 81 >& /tmp/experiments/server_throughput_4_1.log &",
+      "iperf3 -s -p 82 >& /tmp/experiments/server_throughput_4_2.log &",
+      "iperf3 -s -p 83 >& /tmp/experiments/server_throughput_4_3.log &",
+      "iperf3 -s -p 84 >& /tmp/experiments/server_throughput_4_4.log &",
+      "iperf3 -s -p 85 >& /tmp/experiments/server_throughput_4_5.log &",
+      "iperf3 -s -p 86 >& /tmp/experiments/server_throughput_4_6.log &"
+    ]}
+  ],
+  "client": [
+    {"h1": [
+    ]},
+    {"h2": [
+    ]},
+    {"h3": [
+    ]},
+    {"h4": [
+    ]},
+    {"h5": [
+    ]},
+    {"h6": [
+    ]}
+  ]
+}

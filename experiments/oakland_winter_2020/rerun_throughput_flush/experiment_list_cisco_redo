@@ -1,0 +1,6 @@
+fwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_throughput_flush/fwd/ -a org.onosproject.fwd -f 
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_throughput_flush/ifwd/ -a org.onosproject.ifwd -f 
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_throughput_flush/nifwd/ -a org.onosproject.nifwd_combined -f 
+fwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_throughput_flush/fwd/ -a org.onosproject.fwd -f 
+ifwd:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_throughput_flush/ifwd/ -a org.onosproject.ifwd -f 
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-cisco/topo-cisco.json -c run -e experiment_all_cisco -r 50 -s 70 -d ./rerun_throughput_flush/nifwd/ -a org.onosproject.nifwd_combined -f 

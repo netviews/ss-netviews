@@ -1,0 +1,2 @@
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ratapt/topo-ratapt.json -c run -e experiment_all_ratapt -r 50 -s 70 -d ./rerun_03_05_21/ratapt -a org.onosproject.nifwd_combined
+nifwd_combined:sudo ./mininet_script -t ../topology-json/topo-ratapt/topo-ratapt.json -c run -e experiment_all_latency_ratapt -r 50 -s 105 -d ./rerun_03_05_21/ratapt -a org.onosproject.nifwd_combined -f -w 1

@@ -1,0 +1,551 @@
+2021-02-25T18:14:49,264 | INFO  | onos-of-event-stats-27 | DistributedGroupStore            | 192 - org.onosproject.onos-core-dist - 2.4.0 | Group AUDIT: Setting device of:0000000000000006 initial AUDIT completed
+2021-02-25T18:14:49,362 | INFO  | onos-of-event-stats-24 | DistributedGroupStore            | 192 - org.onosproject.onos-core-dist - 2.4.0 | Group AUDIT: Setting device of:0000000000000008 initial AUDIT completed
+2021-02-25T18:14:49,363 | INFO  | onos-of-event-stats-23 | DistributedGroupStore            | 192 - org.onosproject.onos-core-dist - 2.4.0 | Group AUDIT: Setting device of:0000000000000009 initial AUDIT completed
+2021-02-25T18:14:51,288 | INFO  | onos-topo-build-2 | TopologyManager                  | 193 - org.onosproject.onos-core-net - 2.4.0 | Topology DefaultTopology{time=96648699274222, creationTime=1614294891273, computeCost=477297, clusters=5, devices=10, links=18} changed
+2021-02-25T18:14:51,391 | INFO  | onos-topo-build-3 | TopologyManager                  | 193 - org.onosproject.onos-core-net - 2.4.0 | Topology DefaultTopology{time=96648808522919, creationTime=1614294891382, computeCost=519494, clusters=1, devices=10, links=28} changed
+2021-02-25T18:15:14,343 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,346 | INFO  | onos-of-dispatcher-127.0.0.1:48132 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,349 | INFO  | onos-of-dispatcher-127.0.0.1:48120 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,349 | INFO  | onos-of-dispatcher-127.0.0.1:48124 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,349 | INFO  | onos-of-dispatcher-127.0.0.1:48126 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,349 | INFO  | onos-of-dispatcher-127.0.0.1:48130 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,350 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,351 | INFO  | onos-of-dispatcher-127.0.0.1:48134 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,352 | INFO  | onos-of-dispatcher-127.0.0.1:48130 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,352 | INFO  | onos-of-dispatcher-127.0.0.1:48136 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,352 | INFO  | onos-of-dispatcher-127.0.0.1:48126 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,353 | INFO  | onos-of-dispatcher-127.0.0.1:48124 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,353 | INFO  | onos-of-dispatcher-127.0.0.1:48134 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,353 | INFO  | onos-of-dispatcher-127.0.0.1:48126 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,353 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,354 | INFO  | onos-of-dispatcher-127.0.0.1:48126 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,354 | INFO  | onos-of-dispatcher-127.0.0.1:48134 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,354 | INFO  | onos-of-dispatcher-127.0.0.1:48126 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,354 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:15:14,355 | INFO  | onos-of-dispatcher-127.0.0.1:48138 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,355 | INFO  | onos-of-dispatcher-127.0.0.1:48130 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: ffffffffffff
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:14,400 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | Intent State: null
+
+2021-02-25T18:15:14,413 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T18:15:14,413 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+Compile Time: 58085613
+2021-02-25T18:15:14,414 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:15:14,414 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 59597711
+
+
+2021-02-25T18:15:19,505 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:15:19,506 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:15:19,506 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 1887217
+
+
+2021-02-25T18:15:19,507 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:15:19,510 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:15:19,510 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2953311
+
+
+2021-02-25T18:15:30,985 | WARN  | sshd-SshServer[5658468b]-nio2-thread-1 | ServerSessionImpl                | 60 - org.apache.sshd.core - 1.7.0 | exceptionCaught(ServerSessionImpl[dan@/127.0.0.1:49944])[state=Opened] InterruptedByTimeoutException: null
+2021-02-25T18:16:02,001 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:16:02,003 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:02,004 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2946908
+
+
+2021-02-25T18:16:02,005 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:16:02,007 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:02,007 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2236882
+
+
+2021-02-25T18:16:06,096 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:16:06,098 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:06,098 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 1938830
+
+
+2021-02-25T18:16:06,099 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:16:06,101 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:06,101 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2377782
+
+
+2021-02-25T18:16:24,369 | INFO  | sshd-SshServer[5658468b]-nio2-thread-2 | ServerUserAuthService            | 60 - org.apache.sshd.core - 1.7.0 | Session dan@/127.0.0.1:50024 authenticated
+2021-02-25T18:16:24,843 | INFO  | pipe-logout      | LogoutAction                     | 49 - org.apache.karaf.shell.commands - 4.2.8 | Disconnecting from current session...
+2021-02-25T18:16:34,947 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+ip
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+nw_tos: 0
+nw_proto: 6
+tp_src: 33000
+tp_dst: 81
+2021-02-25T18:16:34,960 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | Intent State: null
+
+2021-02-25T18:16:34,971 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T18:16:34,971 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+Compile Time: 22007476
+2021-02-25T18:16:34,972 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:34,972 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 25196307
+
+
+2021-02-25T18:16:45,777 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:16:45,778 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:45,779 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2551807
+
+
+2021-02-25T18:16:45,781 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:16:45,784 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:45,784 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 3588816
+
+
+2021-02-25T18:16:47,568 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:16:47,570 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:47,570 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 1950346
+
+
+2021-02-25T18:16:47,572 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:16:47,574 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:16:47,575 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2662663
+
+
+2021-02-25T18:17:28,785 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:17:28,785 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:17:28,787 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:17:28,788 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2787786
+
+
+2021-02-25T18:17:28,788 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:17:28,788 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 3780633
+
+
+2021-02-25T18:17:28,791 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:17:28,791 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:17:28,793 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:17:28,793 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:17:28,793 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2831170
+
+
+2021-02-25T18:17:28,793 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2742066
+
+
+2021-02-25T18:17:44,987 | INFO  | sshd-SshServer[5658468b]-nio2-thread-1 | ServerUserAuthService            | 60 - org.apache.sshd.core - 1.7.0 | Session dan@/127.0.0.1:50026 authenticated
+2021-02-25T18:17:45,462 | INFO  | pipe-logout      | LogoutAction                     | 49 - org.apache.karaf.shell.commands - 4.2.8 | Disconnecting from current session...
+2021-02-25T18:17:55,583 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+ip
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+nw_tos: 0
+nw_proto: 6
+tp_src: 33000
+tp_dst: 81
+2021-02-25T18:17:55,595 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | Intent State: null
+
+2021-02-25T18:17:55,606 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T18:17:55,607 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+Compile Time: 22663382
+2021-02-25T18:17:55,607 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:17:55,607 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 25116306
+
+
+2021-02-25T18:18:09,233 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:18:09,234 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:09,236 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 3122899
+
+
+2021-02-25T18:18:09,237 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:18:09,241 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:09,242 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 5178405
+
+
+2021-02-25T18:18:11,280 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:18:11,282 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:11,282 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 1827062
+
+
+2021-02-25T18:18:11,283 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:18:11,285 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:11,286 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2437791
+
+
+2021-02-25T18:18:50,449 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:18:50,451 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:50,452 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 3061126
+
+
+2021-02-25T18:18:50,453 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:18:50,455 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:50,456 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2506094
+
+
+2021-02-25T18:18:54,289 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 12be523482f4
+dl_dst: f274c35b1dfb
+nw_src: 10.0.0.5
+nw_dst: 10.0.0.1
+2021-02-25T18:18:54,290 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:54,291 | INFO  | onos-of-dispatcher-127.0.0.1:48128 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 1803112
+
+
+2021-02-25T18:18:54,292 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+arp
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: f274c35b1dfb
+dl_dst: 12be523482f4
+nw_src: 10.0.0.1
+nw_dst: 10.0.0.5
+2021-02-25T18:18:54,295 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T18:18:54,295 | INFO  | onos-of-dispatcher-127.0.0.1:48122 | IntentReactiveForwarding         | 212 - org.onosproject.onos-apps-ifwd - 2.4.0 | 
+
+Send Time (us): 2887744
+
+
+2021-02-25T18:19:05,648 | INFO  | sshd-SshServer[5658468b]-nio2-thread-1 | ServerUserAuthService            | 60 - org.apache.sshd.core - 1.7.0 | Session dan@/127.0.0.1:50028 authenticated
+2021-02-25T18:19:06,135 | INFO  | pipe-logout      | LogoutAction                     | 49 - org.apache.karaf.shell.commands - 4.2.8 | Disconnecting from current session...
+
+
+

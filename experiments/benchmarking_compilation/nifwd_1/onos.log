@@ -1,0 +1,270 @@
+002 initial AUDIT completed
+2021-02-25T16:51:33,968 | INFO  | onos-of-event-stats-4 | DistributedGroupStore            | 192 - org.onosproject.onos-core-dist - 2.4.0 | Group AUDIT: Setting device of:0000000000000005 initial AUDIT completed
+2021-02-25T16:51:35,993 | INFO  | onos-topo-build-2 | TopologyManager                  | 193 - org.onosproject.onos-core-net - 2.4.0 | Topology DefaultTopology{time=91653407981636, creationTime=1614289895982, computeCost=569727, clusters=1, devices=10, links=27} changed
+2021-02-25T16:51:36,081 | INFO  | onos-topo-build-3 | TopologyManager                  | 193 - org.onosproject.onos-core-net - 2.4.0 | Topology DefaultTopology{time=91653502284223, creationTime=1614289896076, computeCost=716678, clusters=1, devices=10, links=28} changed
+2021-02-25T16:51:58,917 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,921 | INFO  | onos-of-dispatcher-127.0.0.1:47812 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,923 | INFO  | onos-of-dispatcher-127.0.0.1:47800 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,923 | INFO  | onos-of-dispatcher-127.0.0.1:47808 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,924 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,923 | INFO  | onos-of-dispatcher-127.0.0.1:47806 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,925 | INFO  | onos-of-dispatcher-127.0.0.1:47814 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,925 | INFO  | onos-of-dispatcher-127.0.0.1:47804 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,926 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,926 | INFO  | onos-of-dispatcher-127.0.0.1:47814 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,926 | INFO  | onos-of-dispatcher-127.0.0.1:47816 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,927 | INFO  | onos-of-dispatcher-127.0.0.1:47808 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,927 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,928 | INFO  | onos-of-dispatcher-127.0.0.1:47808 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,928 | INFO  | onos-of-dispatcher-127.0.0.1:47806 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,928 | INFO  | onos-of-dispatcher-127.0.0.1:47814 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,928 | INFO  | onos-of-dispatcher-127.0.0.1:47806 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,929 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:58,928 | INFO  | onos-of-dispatcher-127.0.0.1:47804 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,929 | INFO  | onos-of-dispatcher-127.0.0.1:47806 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,929 | INFO  | onos-of-dispatcher-127.0.0.1:47806 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,931 | INFO  | onos-of-dispatcher-127.0.0.1:47818 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,939 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:58,950 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:51:58,951 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22447596
+2021-02-25T16:51:58,951 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:58,962 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:58,973 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:51:58,973 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 21977324
+2021-02-25T16:51:58,974 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T16:51:58,975 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:58,976 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Intent
+2021-02-25T16:51:58,977 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Permission
+2021-02-25T16:51:58,977 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ @@@@@ Got 	Name: h1 sv1 tcp/81
+2021-02-25T16:51:58,978 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Policy Time:1666519
+
+
+2021-02-25T16:51:58,979 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Received true
+2021-02-25T16:51:58,980 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Checking Key: EA:4C:94:93:29:1A/None8E:AE:89:E1:C7:A9/None10.0.0.1EA:4C:94:93:29:1A10.0.0.58E:AE:89:E1:C7:A9TCP81
+
+2021-02-25T16:51:58,981 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:58,992 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:59,002 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:51:59,003 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22260657
+2021-02-25T16:51:59,004 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:59,015 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:51:59,017 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:51:59,018 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Intent
+2021-02-25T16:51:59,019 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Permission
+2021-02-25T16:51:59,019 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ @@@@@ Got 	Name: sv1 h1 tcp/33001
+2021-02-25T16:51:59,020 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Policy Time:862621
+
+
+2021-02-25T16:51:59,020 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Received false
+2021-02-25T16:51:59,021 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Checking Key: 8E:AE:89:E1:C7:A9/NoneEA:4C:94:93:29:1A/None10.0.0.58E:AE:89:E1:C7:A910.0.0.1EA:4C:94:93:29:1ATCP33001
+
+2021-02-25T16:51:59,027 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:51:59,027 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 23152935
+2021-02-25T16:51:59,028 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T16:51:59,029 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Send Time (us): 53029457
+
+
+2021-02-25T16:53:08,967 | INFO  | sshd-SshServer[23615462]-nio2-thread-2 | ServerUserAuthService            | 60 - org.apache.sshd.core - 1.7.0 | Session dan@/127.0.0.1:49704 authenticated
+2021-02-25T16:53:09,519 | INFO  | pipe-logout      | LogoutAction                     | 49 - org.apache.karaf.shell.commands - 4.2.8 | Disconnecting from current session...
+2021-02-25T16:53:19,631 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:53:19,634 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Intent
+2021-02-25T16:53:19,634 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Permission
+2021-02-25T16:53:19,634 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ @@@@@ Got 	Name: h1 sv1 tcp/81
+2021-02-25T16:53:19,635 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Policy Time:851634
+
+
+2021-02-25T16:53:19,635 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Received true
+2021-02-25T16:53:19,636 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Checking Key: EA:4C:94:93:29:1A/None8E:AE:89:E1:C7:A9/None10.0.0.1EA:4C:94:93:29:1A10.0.0.58E:AE:89:E1:C7:A9TCP81
+
+2021-02-25T16:53:19,637 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:19,648 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:19,659 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:53:19,660 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22937267
+2021-02-25T16:53:19,660 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:19,671 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:19,682 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:53:19,682 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22216351
+2021-02-25T16:53:19,683 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T16:53:19,684 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Send Time (us): 52107146
+
+
+2021-02-25T16:53:32,241 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:53:32,243 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:32,253 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:32,264 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:53:32,265 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 23089573
+2021-02-25T16:53:32,266 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:32,277 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:53:32,288 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:53:32,288 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22278504
+2021-02-25T16:53:32,289 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T16:54:29,633 | INFO  | sshd-SshServer[23615462]-nio2-thread-2 | ServerUserAuthService            | 60 - org.apache.sshd.core - 1.7.0 | Session dan@/127.0.0.1:49706 authenticated
+2021-02-25T16:54:30,156 | INFO  | pipe-logout      | LogoutAction                     | 49 - org.apache.karaf.shell.commands - 4.2.8 | Disconnecting from current session...
+2021-02-25T16:54:40,267 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:54:40,268 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Intent
+2021-02-25T16:54:40,269 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ Request Permission
+2021-02-25T16:54:40,269 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+ @@@@@ Got 	Name: h1 sv1 tcp/81
+2021-02-25T16:54:40,270 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Policy Time:930795
+
+
+2021-02-25T16:54:40,270 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Received true
+2021-02-25T16:54:40,271 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Checking Key: EA:4C:94:93:29:1A/None8E:AE:89:E1:C7:A9/None10.0.0.1EA:4C:94:93:29:1A10.0.0.58E:AE:89:E1:C7:A9TCP81
+
+2021-02-25T16:54:40,272 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:40,283 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:40,293 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:54:40,294 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22596348
+2021-02-25T16:54:40,295 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:40,306 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:40,317 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:54:40,318 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22762603
+2021-02-25T16:54:40,318 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000002, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:4], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
+2021-02-25T16:54:40,318 | INFO  | onos-of-dispatcher-127.0.0.1:47802 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+
+Send Time (us): 50185564
+
+
+2021-02-25T16:54:45,457 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Packet_in
+
+2021-02-25T16:54:45,458 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:45,469 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:45,480 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:54:45,481 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 22583327
+2021-02-25T16:54:45,481 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:45,492 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: null
+
+2021-02-25T16:54:45,502 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | Intent State: INSTALLING
+
+2021-02-25T16:54:45,503 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | 
+Compile Time: 21700789
+2021-02-25T16:54:45,503 | INFO  | onos-of-dispatcher-127.0.0.1:47810 | IntentReactiveForwarding         | 214 - org.onosproject.onos-apps-nifwd_combined-app - 2.4.0 | sending packet: DefaultOutboundPacket{sendThrough=of:0000000000000001, treatment=DefaultTrafficTreatment{immediate=[OUTPUT:2], deferred=[], transition=None, meter=[], cleared=false, StatTrigger=null, metadata=null}, inPort=null}
