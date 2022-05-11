@@ -102,12 +102,22 @@ app activate fwd [for reactive forwarding application]
 ```
 
 ### STEP 03: Get Mininet Ready
-1. 
-		sudo ./just_run_mininet_script -t ../topology-json/demo-topo-ref/topo-ref.json -c run  -d ./testing -e just_run_without_experiment -a org.onosproject.nifwd_combined
+1. There are multiple versions of the Mininet. [This]{https://github.com/netviews/ss-netviews/blob/master/experiments/basic_mininet_script} version reads given topology and deploys the network environment.
 
+2. This command will run the mininet sript:
+```
+sudo ./basic_mininet_script -t [path to specific topology input file] -c [run/generate] -d [where to store the results of experiment] -e [things you want your hosts to do] -a [the type of forwarding application you are using]
+```
+Here, "generate" command is used for generating the info type inputfile needed for identity mapping.
+
+A example run:
+```
+sudo ./basic_mininet_script -t ../topology-json/demo-topo-ref/topo-ref.json -c run  -d ./testing -e run_without_experiment -a org.onosproject.nifwd_combined
+```
+
+### STEP 04: Working with the Environment
 At this point you have access to the ONOS server and application logs on terminal 1, the ONOS CLI for debugging on terminal 2, and the application output on terminal 3.
 Use tcpdump, Wireshark, or tshark to capture and analyze packets and network behavior.
-
 
 ### Running Experiments
 
