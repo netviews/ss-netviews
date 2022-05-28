@@ -1,4 +1,6 @@
 # ss-netviews
+This project is implementation of our effort in securing enterprise netwrok environment without depending on perimeter, which is published in SACMAT 2022. Please find the published version of the paper here, [NetViews](https://enck.org/pubs/anjum-sacmat22.pdf).
+
 ## Random Policy Graph Generation
 To understand the impact of the Policy Engine on the overall NetViews overhead, we analyzed the response time of policy-machine-core using random policy graphs. We used similar techniques as following paper:
 ```
