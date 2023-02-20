@@ -93,7 +93,7 @@ Here, "generate" command is used for generating the info type inputfile needed f
 
 A example run:
 ```
-sudo ./basic_mininet_script -t ../topology-json/demo-topo-ref/topo-ref.json -c run  -d ./testing -e run_without_experiment -a org.onosproject.nifwd_combined
+sudo ./basic_mininet_script -t ../input-files/demo-topo-ref/topo-ref.json -c run  -d ./testing -e run_without_experiment -a org.onosproject.nifwd_combined
 ```
 
 ### STEP 04: Working with the Environment
