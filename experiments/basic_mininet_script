@@ -244,7 +244,8 @@ def runTopo(experiments):
 
 def start_flush():
     global onos_cli
-    onos_cli = pexpect.spawn("sudo su -c \"/home/dan/onos/tools/test/bin/onos localhost\" -s /bin/sh dan")
+    onos_cli = pexpect.spawn("sudo su -c \"/PATH-FROM-HOME/onos/tools/test/bin/onos localhost\" -s /bin/sh USERNAME")
+    #onos_cli = pexpect.spawn("sudo su -c \"/home/dan/onos/tools/test/bin/onos localhost\" -s /bin/sh dan")
     onos_cli.expect("dan@root > ")
 
 def flush_network():
