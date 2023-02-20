@@ -115,6 +115,18 @@ pkill -f onos
 5. Compile parsed files based on desired figures (reference some of the “combined” csv files in the repo for formatting examples).
 6. Run box_plot_throughput and bar_plot_latency on the compiled files to create figures. 
 
+## Important Links:
+Nmap: https://nmap.org/
+MTR: https://linux.die.net/man/8/mtr
+iPerf3: https://iperf.fr/iperf-download.php
+Follow the ONOS tutorials from: https://wiki.onosproject.org/display/ONOS/Basic+ONOS+Tutorial
+Follow [this](https://docs.google.com/presentation/d/10b8Z4o8fSqIND9PSF8SerJ1bGBAWrWbcor6oaXMnIPk/edit?usp=sharing) documentation provided Rajit Nitin Bharambe for setting up ONOS and Mininet with one caveat on slide 10: 
+$    git clone https://gerrit.onosproject.org/onos
+$    cd onos
+$    git checkout onos-2.3
+$    bazel build onos
+
+
 ## Random Policy Graph Generation
 To understand the impact of the Policy Engine on the overall NetViews overhead, we analyzed the response time of policy-machine-core using random policy graphs. We used similar techniques as following paper:
 ```
