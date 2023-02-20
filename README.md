@@ -1,27 +1,6 @@
 # ss-netviews
 This project is implementation of our effort in securing enterprise netwrok environment without depending on perimeter, which is published in SACMAT 2022. Please find the published version of the paper here, [NetViews](https://enck.org/pubs/anjum-sacmat22.pdf).
 
-## Random Policy Graph Generation
-To understand the impact of the Policy Engine on the overall NetViews overhead, we analyzed the response time of policy-machine-core using random policy graphs. We used similar techniques as following paper:
-```
-R. Basnet, S. Mukherjee, V. M. Pagadala, and I. Ray. 2018. An efficient implementa- tion of next generation access control for the mobile health cloud. In Proceedings of the International Conference on Fog and Mobile Edge Computing (FMEC).
-```
-The implementation is in [here](https://github.com/netviews/ss-netviews/tree/master/random-graph-generation)
-To run and generate policy graph:
-```
-python randomPolicyGraph.py AlgorithmNo UserCount ObjectCount Height
-```
-To generate policy graph useing algorithm one, two user, one object and one height:
-```
-python randomPolicyGraph.py 1 2 1 1
-```
-
-## Attack Graph Generation
-Attack graph visualizing possible reconnaissance and lateral movement from a compromised host. [Here](https://github.com/netviews/ss-netviews), we use similar technique as Lippmann et al.
-```
-Richard Lippmann, Kyle Ingols, Chris Scott, Keith Piwowarski, Kendra Kratkiewicz, Mike Artz, and Robert Cunningham. 2006. Validating and Restor- ing Defense in Depth Using Attack Graphs. In Proceedings of the IEEE Military Communications conference (MILCOM).
-```
-
 ## Network Environment Setup
 ### Mininet Installation
 ```
@@ -136,3 +115,23 @@ pkill -f onos
 5. Compile parsed files based on desired figures (reference some of the “combined” csv files in the repo for formatting examples).
 6. Run box_plot_throughput and bar_plot_latency on the compiled files to create figures. 
 
+## Random Policy Graph Generation
+To understand the impact of the Policy Engine on the overall NetViews overhead, we analyzed the response time of policy-machine-core using random policy graphs. We used similar techniques as following paper:
+```
+R. Basnet, S. Mukherjee, V. M. Pagadala, and I. Ray. 2018. An efficient implementa- tion of next generation access control for the mobile health cloud. In Proceedings of the International Conference on Fog and Mobile Edge Computing (FMEC).
+```
+The implementation is in [here](https://github.com/netviews/ss-netviews/tree/master/random-graph-generation)
+To run and generate policy graph:
+```
+python randomPolicyGraph.py AlgorithmNo UserCount ObjectCount Height
+```
+To generate policy graph useing algorithm one, two user, one object and one height:
+```
+python randomPolicyGraph.py 1 2 1 1
+```
+
+## Attack Graph Generation
+Attack graph visualizing possible reconnaissance and lateral movement from a compromised host. [Here](https://github.com/netviews/ss-netviews), we use similar technique as Lippmann et al.
+```
+Richard Lippmann, Kyle Ingols, Chris Scott, Keith Piwowarski, Kendra Kratkiewicz, Mike Artz, and Robert Cunningham. 2006. Validating and Restor- ing Defense in Depth Using Attack Graphs. In Proceedings of the IEEE Military Communications conference (MILCOM).
+```
