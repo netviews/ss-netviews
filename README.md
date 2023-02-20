@@ -60,8 +60,8 @@ app activate fwd
 ## Running Network Environment
 ### STEP 01: Getting Netviews Application Ready in ONOS:
 
-1. If no modifications to the onos application code are needed, skip to STEP 2.
-2. Go to the netviews-code/ONOS_Apps directory, to chnage and update coorespoding forwarding applications.
+1. If no modifications to the onos application code are needed, skip STEP 2.
+2. Go to the netviews-code/ONOS_Apps directory, to change and update cooresponding forwarding applications.
 3. Change the paths of policy and identity files in the IntentReactiveForwarding [Line 167 and 168], netviews-code/ONOS_Apps/nifwd_combined/app/src/main/java/org/onosproject/nifwd_combined/IntentReactiveForwarding.java, to your local paths
 4. Run onos_setup to move files to the $ONOS_ROOT directory (see [README](https://github.com/netviews/ss-netviews/blob/master/ONOS_Apps/README)).
 ```
