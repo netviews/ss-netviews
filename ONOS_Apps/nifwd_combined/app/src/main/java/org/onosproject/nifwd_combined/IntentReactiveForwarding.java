@@ -164,8 +164,8 @@ public class IntentReactiveForwarding {
 		policyEngine = new PolicyEngine();
 
 		
-		identityMap.createMapping("/home/ianjum/netviews-code/topology-json/demo-topo-ref/topo-ref-info.json");
-		policyEngine.createPolicyGraph("/home/ianjum/netviews-code/topology-json/demo-topo-ref/topo-ref-policy.json");
+		identityMap.createMapping("/PATH-FROM-HOME/input-files/demo-topo-ref/topo-ref-info.json");
+		policyEngine.createPolicyGraph("/PATH-FROM-HOME/input-files/demo-topo-ref/topo-ref-policy.json");
                 
 
 		TrafficSelector.Builder selector = DefaultTrafficSelector.builder();
