@@ -81,4 +81,53 @@ public class PolicyEngine {
 		return false;
 	}*/
     }
+
+    /**
+     * Method to add a new policy to the policy graph. This method takes
+     * a String where each line of the String is in 1 of 3 formats: 
+     * ' node <name> <type> <properties>' to add a node
+     * ' assign <child> <parent>' to add an assignment
+     * ' assoc <ua> <target>' to add an association
+     * 
+     * @param newPolicyInfo is a String in the above format
+     */
+    public void addToPolicyGraph(String newPolicyInfo) throws FileNotFoundException {
+        //String format: node <name> <type> <properties>
+
+        GraphSerializer.deserialize(graph, newPolicyInfo);
+
+        decider = new PReviewDecider(graph, null);
+    }
+
+    /**
+     * Method for deleting a node, association, and assignment.
+     * One of each type may be provided.
+     * 
+     * @param node the name of the node to be deleted (or null)
+     * @param assoc the association to be deleted (or null)
+     * @param assign the assignment to be deleted (or null)
+     */
+    public void deleteGraphElement(String node, String assoc, String assign) throws Exception {
+        //String format: node <name> <type> <properties>
+
+        // try {
+            if (node != null) {
+                graph.deleteNode();
+            } 
+            if (assoc != null) {
+                graph.dissociate(userAssoc);
+            }
+    
+            if (assign != null) {
+                graph.deassign(assign);
+            }
+
+            decider = new PReviewDecider(graph, null);
+
+        // } catch (FileNotFoundException e) {
+
+        // } 
+        
+    }
+
 }

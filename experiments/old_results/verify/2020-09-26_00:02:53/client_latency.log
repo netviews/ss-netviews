@@ -1,7 +1,0 @@
-Start: 2020-09-26T00:01:53-0400
-HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
-  1.|-- 10.0.0.13                  0.0%    10    0.1   4.1   0.1  39.4  12.4
-Start: 2020-09-26T00:02:13-0400
-HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
-Start: 2020-09-26T00:02:33-0400
-HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev

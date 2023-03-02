@@ -1,3 +1,0 @@
-Start: 2020-09-25T15:05:13-0400
-HOST: netviews                    Loss%   Snt   Last   Avg  Best  Wrst StDev
-  1.|-- 10.0.0.10                 30.0%    10  5667. 2660. 544.7 5667. 1679.8
