@@ -35,5 +35,13 @@
         <module>app</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli</artifactId>
+            <version>4.7.1</version>
+        </dependency>
+    </dependencies>
+
 </project>
 
