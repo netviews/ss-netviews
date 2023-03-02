@@ -1,4 +1,7 @@
-import picocli.CommandLine;
+package src.main.java.cli;
+
+import src.main.java.cli.CommandLine;
+import src.main.java.cli.commands.TestCommand;
 
 public class NetViewsCLI {
     public static void main(String[] args){
