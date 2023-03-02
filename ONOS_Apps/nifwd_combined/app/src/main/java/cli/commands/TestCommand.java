@@ -1,6 +1,6 @@
-package src.main.java.cli.commands;
+package cli.commands;
 
-import src.main.java.cli.CommandLine;
+import cli.CommandLine;
 
 @Command(name = "TestCommand", description = "Test function to help understand picoCLI", mixinStandardHelpOptions = true)
 public class TestCommand implements Runnable {

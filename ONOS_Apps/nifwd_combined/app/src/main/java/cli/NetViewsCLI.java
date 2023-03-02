@@ -1,7 +1,7 @@
-package src.main.java.cli;
+package cli;
 
-import src.main.java.cli.CommandLine;
-import src.main.java.cli.commands.TestCommand;
+import cli.CommandLine;
+import cli.commands.TestCommand;
 
 public class NetViewsCLI {
     public static void main(String[] args){
