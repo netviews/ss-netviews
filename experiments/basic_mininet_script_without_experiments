@@ -1,0 +1,261 @@
+#!/usr/bin/env python
+
+"""
+This script reads topology information from a JSON file and
+either creates another JSON needed for Policy or runs the Mininet network.
+To generate Topo info:
+      sudo python script.py <jsonfilename> generate
+ e.g. sudo python script.py ref_enterprise_topo.txt generate
+To run Mininet network:
+      sudo python script.py <jsonfilename> run
+ e.g. sudo python script.py ref_enterprise_topo.txt run
+"h13": "iperf3 -s -p 80 >& /tmp/server.log &",
+"h10": "iperf3 -c 10.0.0.13 -p 80 >& /tmp/client.log &"
+"""
+
+from mininet.topo import Topo
+from mininet.net import Mininet
+from mininet.node import CPULimitedHost
+from mininet.link import TCLink
+from mininet.util import dumpNodeConnections, dumpNetConnections, waitListening
+from mininet.log import setLogLevel, output, info
+from mininet.node import RemoteController
+from mininet.cli import CLI
+from threading import Thread
+import json
+import sys
+import argparse
+import time
+import os
+import datetime
+import pexpect
+
+experiments = False
+topology = None
+descriptions = {}
+rounds = 1
+timeout = 10
+onos_app = ''
+flush = False
+interval = 0
+onos_cli = ''
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description = 'Run a NetViews experiment')
+    parser.add_argument('-t', '--topology', type = str, required = True,
+        help = 'the path to a topology to be run on the Mininet script')
+    parser.add_argument('-c', '--command', type = str, required = True,
+        help = 'desired command (run or generate)')
+    parser.add_argument('-p', '--optomize', type = bool, default = False,
+        help = 'Install explicit (False) or open (True) return intents. Default is False')
+    parser.add_argument('-e', '--experiments', type = str, required = False,
+        help = 'the path to the experiment file to run')
+    parser.add_argument('-r', '--rounds', type = int, default = 1,
+        help = 'rounds of client experiments to run')
+    parser.add_argument('-s', '--seconds', type = int, default = 10,
+        help = 'timeout, in seconds, between rounds of experiments')
+    parser.add_argument('-d', '--destination', type = str, required = True,
+        help = 'destination directory path')
+    parser.add_argument('-a', '--app', type = str, required = True,
+        help = 'onos app name (i.e. org.onosproject.fwd)')
+    parser.add_argument('-f', '--flush', action = 'store_true',
+        help = 'Will flush intents, flow rules, topology, etc. between runs if set')
+    parser.add_argument('-i', '--interval', type = int, default = 0, required = False,
+        help = 'Optional flush interval (in seconds). I.e. a 10 second flow with 2 second flush interval will flush the network 5 times')
+    parser.add_argument('-w', '--wait', type = int, default = 0, required = False,
+        help = 'Optional wait interval (in seconds) between experiments. I.E. -w 1 will wait 1 second between each client command being run')
+    args = parser.parse_args()
+
+    global topology
+    topology = args.topology
+
+    global rounds
+    rounds = args.rounds
+
+    global timeout
+    timeout = args.seconds
+
+    global destination
+    destination = args.destination
+
+    global onos_app
+    onos_app = args.app
+
+    global flush
+    flush = args.flush
+
+    global interval
+    interval = args.interval
+
+    global wait
+    wait = args.wait
+
+    if args.experiments:
+        with open(args.experiments) as file:
+            global experiments
+            experiments = json.load(file)
+
+    if args.command == 'generate':
+        createJSON()
+    elif args.command == 'run':
+        setLogLevel('info')
+        runTopo(experiments)
+    else:
+        print('Invalid command')
+        sys.exit()
+
+class GenerateTopo(Topo):
+
+    "Reading JSON Object and generating the Mininet topology"
+
+    def addSwitch( self, name, **opts ):
+        kwargs = { 'protocols': 'OpenFlow13' }
+        kwargs.update(opts)
+        return super(GenerateTopo, self).addSwitch(name, **kwargs)
+
+    def build( self ):
+
+        with open(topology, 'r') as f:
+            topo = json.load(f)
+
+            for switch in topo['switches']:
+                self.addSwitch(switch['name'])
+                descriptions[switch['name']] = switch['description']
+
+            for host in topo['hosts']:
+               self.addHost(host['name'])
+               descriptions[host['name']] = host['description']
+
+            for link in topo['links']:
+                if link['linkopts'] is None:
+                    self.addLink(link['node1'], link['node2'])
+                else:
+                    self.addLink(link['node1'], link['node2'], **link['linkopts'])
+
+
+
+def dumpConnections( node ):
+    "Helper function: dump connections to node"
+    dump = ''
+    for intf in node.intfList():
+        dump += str(intf)
+        dump += ':'
+        if intf.link:
+            intfs = [ intf.link.intf1, intf.link.intf2 ]
+            intfs.remove( intf )
+            dump += str(intfs[0])
+        else:
+            dump += ' '
+    return dump
+
+def createJSON(net):
+    "Create JSON for Policy Definition"
+    topo_info = []
+
+    id = 1
+    for switch in net.switches:
+        topo_info.append({
+            'Name': switch.name,
+            'IP': switch.IP(),
+            'MAC': switch.dpid,
+            'Type': 'Switch',
+            'ID': str(id),
+            'Description': descriptions[switch.name]
+            })
+        id += 1
+
+    #dump = dumpNetConnections(net)
+    #dump = dumpConnections(net.hosts[0])
+    #print dump
+    for host in net.hosts:
+        topo_info.append({
+            'Name': host.name,
+            'IP': host.IP(),
+            'MAC': host.MAC(),
+            'Type': 'Host',
+            'ID': str(id),
+            'Description': descriptions[host.name],
+            'Port': dumpConnections(host)
+            })
+        id += 1
+
+    with open('ref_topo.json', 'w+') as f:
+        json.dump(topo_info, f, indent = 4)
+
+    print('ref_topo.json\tgenerated')
+
+def runTopo(experiments):
+    "Create network"
+    net = Mininet( topo=GenerateTopo(),
+                   controller = RemoteController( 'c0' ),
+                   link = TCLink)
+    createJSON(net)
+    net.start()
+
+    os.system('mkdir /tmp/experiments')
+
+    print('Waiting for server startup...')
+
+    for servers in experiments["server"]:
+        for server in servers:
+            for net_host in net.hosts:
+                if str(net_host) == server:
+                    for experiment in servers[server]:
+                        print("Server " + server + " running command: " + experiment)
+                        cmd = net_host.cmd(experiment)
+
+    time.sleep(5)
+
+'''
+    for clients in experiments["client"]:
+        for client in clients:
+            for net_host in net.hosts:
+                if str(net_host) == client:
+                    for experiment in clients[client]:
+                        print("\tClient " + client + " running command: " + experiment)
+                        cmd = net_host.cmd(experiment)
+                        if wait > 0:
+                           time.sleep(wait)
+
+        time.sleep(timeout)
+
+        onos_cli = pexpect.spawn("sudo su -c \"/home/dan/onos/tools/test/bin/onos localhost\" -s /bin/sh dan")
+        onos_cli.expect("dan@root > ")
+        onos_cli.sendline("remove-intent -p " + onos_app)
+        onos_cli.expect("dan@root > ")
+        onos_cli.sendline("logout")
+
+    if destination[-1] == '/':
+        result_dir = destination + str(datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S'))
+    else:
+        result_dir = destination + '/' + str(datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S'))
+
+    os.system('mkdir ' + result_dir)
+    os.system('mv /tmp/experiments/* ' + result_dir)
+
+    print('Experiments completed, output located in ' + result_dir)
+'''
+    #net.pingAll()
+    info( "\n*** Type 'exit' or control-D to shut down network\n" )
+    CLI( net )
+    net.stop()
+
+def start_flush():
+    global onos_cli
+    onos_cli = pexpect.spawn("sudo su -c \"/PATH-FROM-HOME/onos/tools/test/bin/onos localhost\" -s /bin/sh USERNAME")
+    #onos_cli = pexpect.spawn("sudo su -c \"/home/dan/onos/tools/test/bin/onos localhost\" -s /bin/sh dan")
+    onos_cli.expect("dan@root > ")
+
+def flush_network():
+    #onos_cli.sendline("wipe-out please")
+    #onos_cli.expect("dan@root > ")
+    onos_cli.sendline("remove-intent -p " + onos_app)
+    onos_cli.expect("dan@root > ")
+
+def close_flush():
+    onos_cli.sendline("logout")
+
+if __name__ == '__main__':
+    main()
