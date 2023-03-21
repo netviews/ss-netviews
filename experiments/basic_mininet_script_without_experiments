@@ -193,7 +193,7 @@ def runTopo(experiments):
                    link = TCLink)
     createJSON(net)
     net.start()
-
+'''
     os.system('mkdir /tmp/experiments')
 
     print('Waiting for server startup...')
@@ -208,7 +208,6 @@ def runTopo(experiments):
 
     time.sleep(5)
 
-'''
     for clients in experiments["client"]:
         for client in clients:
             for net_host in net.hosts:
