@@ -34,7 +34,11 @@ import org.slf4j.Logger;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import org.osgi.service.component.annotations.Component;
+import javax.ejb.Stateless;
+import javax.jws.WebService;
 
+@Stateless
+@WebService
 @Component(immediate = true)
 public class PolicyEngine {
 
@@ -91,7 +95,7 @@ public class PolicyEngine {
      * 
      * @param newPolicyInfo is a String in the above format
      */
-    public void addToPolicyGraph(String newPolicyInfo) throws FileNotFoundException {
+    public void addGraphElement(String newPolicyInfo) throws FileNotFoundException {
         //String format: node <name> <type> <properties>
 
         GraphSerializer.deserialize(graph, newPolicyInfo);
@@ -109,17 +113,23 @@ public class PolicyEngine {
      */
     public void deleteGraphElement(String node, String assoc, String assign) throws Exception {
         //String format: node <name> <type> <properties>
-
+    	//               assoc <child?> <parent?>
+    	//               assign <> <>
+    	// TODO: parse assoc and assign strings for child and parent in order to delete.
+    	// Using space as delimeter I suppose.
+    	String child; // need different ones for association and assignment???
+    	String parent;
+    	
         // try {
             if (node != null) {
-                graph.deleteNode();
+                graph.deleteNode(node);
             } 
             if (assoc != null) {
-                graph.dissociate(userAssoc);
+                graph.dissociate(child, parent);
             }
     
             if (assign != null) {
-                graph.deassign(assign);
+                graph.deassign(child, parent);
             }
 
             decider = new PReviewDecider(graph, null);
