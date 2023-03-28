@@ -18,12 +18,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+<!-- 
     <parent>
         <groupId>org.onosproject</groupId>
         <artifactId>onos-apps</artifactId>
         <version>1.14.0</version>
     </parent>
+    I added the following two lines to replace these commented out ones
+ -->
+	<groupId>our.netviews</groupId>
+	<version>4.00</version>
 
     <artifactId>onos-apps-nifwd_combined</artifactId>
     <packaging>pom</packaging>
@@ -41,6 +45,63 @@
     		<artifactId>javaee-api</artifactId>
     		<version>7.0</version>
 		</dependency>
+		
+		<dependency>
+    		<groupId>org.yaml</groupId>
+    		<artifactId>snakeyaml</artifactId>
+    		<version>1.19</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+    		<groupId>com.google.code.gson</groupId>
+    		<artifactId>gson</artifactId>
+    		<version>2.10.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+    		<groupId>org.junit.jupiter</groupId>
+    		<artifactId>junit-jupiter-api</artifactId>
+    		<version>5.9.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+    		<groupId>org.slf4j</groupId>
+    		<artifactId>slf4j-api</artifactId>
+    		<version>2.0.7</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.component.annotations -->
+		<dependency>
+    		<groupId>org.osgi</groupId>
+    		<artifactId>org.osgi.service.component.annotations</artifactId>
+    		<version>1.5.1</version>
+    		<scope>provided</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.jgrapht/jgrapht-ext -->
+		<dependency>
+    		<groupId>org.jgrapht</groupId>
+    		<artifactId>jgrapht-core</artifactId>
+    		<version>1.5.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.onosproject/onos-api -->
+		<dependency>
+    		<groupId>org.onosproject</groupId>
+    		<artifactId>onos-api</artifactId>
+    		<version>2.7.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/info.picocli/picocli -->
+		<dependency>
+    		<groupId>info.picocli</groupId>
+    		<artifactId>picocli</artifactId>
+    		<version>4.7.1</version>
+		</dependency>
+		
     </dependencies>
 </project>
 
