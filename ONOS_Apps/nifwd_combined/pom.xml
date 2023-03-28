@@ -81,13 +81,13 @@
     		<scope>provided</scope>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.jgrapht/jgrapht-ext -->
+		<!-- https://mvnrepository.com/artifact/org.jgrapht/jgrapht-jdk1.5 -->
 		<dependency>
     		<groupId>org.jgrapht</groupId>
-    		<artifactId>jgrapht-core</artifactId>
-    		<version>1.5.1</version>
+    		<artifactId>jgrapht-jdk1.5</artifactId>
+    		<version>0.7.3</version>
 		</dependency>
-
+		
 		<!-- https://mvnrepository.com/artifact/org.onosproject/onos-api -->
 		<dependency>
     		<groupId>org.onosproject</groupId>
