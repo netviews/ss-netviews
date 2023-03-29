@@ -49,6 +49,7 @@ public class PolicyEngine {
 
     public void createPolicyGraph(String filePath) throws FileNotFoundException,IOException, PMException{
         log.info("\n&&& createPolicyGraph &&&\n");
+        Graph tempGraph = new MemGraph();
         try
         {
             //File file = new File("/home/ianjum/GitNetViews/netviews-code/netviews-policy-machine/src/policyInput/policySample01.json");
@@ -60,7 +61,9 @@ public class PolicyEngine {
             String json = new String(data, "UTF-8");
 
 
-            GraphSerializer.fromJson(graph, json);
+            GraphSerializer.fromJson(tempGraph, json);
+            
+            graph = tempGraph;
             
 	    decider = new PReviewDecider(graph, null);
 	    //boolean decision = getPermission("h1", "h10", "tcp/9100");
@@ -75,7 +78,7 @@ public class PolicyEngine {
         }
 
     }
-
+    
     public boolean getPermission(String subject, String object, String action) throws IOException, PMException{        
         Set<String> permissions = decider.list(subject, "0" , object);
         return permissions.contains(action);
@@ -86,58 +89,10 @@ public class PolicyEngine {
 	}*/
     }
 
-    /**
-     * Method to add a new policy to the policy graph. This method takes
-     * a String where each line of the String is in 1 of 3 formats: 
-     * ' node <name> <type> <properties>' to add a node
-     * ' assign <child> <parent>' to add an assignment
-     * ' assoc <ua> <target>' to add an association
-     * 
-     * @param newPolicyInfo is a String in the above format
-     */
-    public void addGraphElement(String newPolicyInfo) throws FileNotFoundException {
-        //String format: node <name> <type> <properties>
-
-        GraphSerializer.deserialize(graph, newPolicyInfo);
-
-        decider = new PReviewDecider(graph, null);
-    }
-
-    /**
-     * Method for deleting a node, association, and assignment.
-     * One of each type may be provided.
-     * 
-     * @param node the name of the node to be deleted (or null)
-     * @param assoc the association to be deleted (or null)
-     * @param assign the assignment to be deleted (or null)
-     */
-    public void deleteGraphElement(String node, String assoc, String assign) throws Exception {
-        //String format: node <name> <type> <properties>
-    	//               assoc <child?> <parent?>
-    	//               assign <> <>
-    	// TODO: parse assoc and assign strings for child and parent in order to delete.
-    	// Using space as delimeter I suppose.
-    	String child; // need different ones for association and assignment???
-    	String parent;
+    /*
+     *
+    public static void main(String args[]) {
     	
-        // try {
-            if (node != null) {
-                graph.deleteNode(node);
-            } 
-            if (assoc != null) {
-                graph.dissociate(child, parent);
-            }
-    
-            if (assign != null) {
-                graph.deassign(child, parent);
-            }
-
-            decider = new PReviewDecider(graph, null);
-
-        // } catch (FileNotFoundException e) {
-
-        // } 
-        
     }
-
+    */
 }
