@@ -34,11 +34,7 @@ import org.slf4j.Logger;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import org.osgi.service.component.annotations.Component;
-import javax.ejb.Stateless;
-import javax.jws.WebService;
 
-@Stateless
-@WebService
 @Component(immediate = true)
 public class PolicyEngine {
 
@@ -47,6 +43,19 @@ public class PolicyEngine {
     private final Logger log = getLogger(getClass());
     Decider decider;
 
+    private static PolicyEngine policyEngine = null;
+    
+    private PolicyEngine() {
+    	// None
+    }
+    
+    public static synchronized PolicyEngine getInstance() {
+    	if (policyEngine == null) {
+    		policyEngine = new PolicyEngine();
+    	}
+    	return policyEngine;
+    }
+    
     public void createPolicyGraph(String filePath) throws FileNotFoundException,IOException, PMException{
         log.info("\n&&& createPolicyGraph &&&\n");
         Graph tempGraph = new MemGraph();
@@ -88,11 +97,4 @@ public class PolicyEngine {
 		return false;
 	}*/
     }
-
-    /*
-     *
-    public static void main(String args[]) {
-    	
-    }
-    */
 }
