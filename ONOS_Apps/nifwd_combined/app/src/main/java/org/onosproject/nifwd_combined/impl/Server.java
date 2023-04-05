@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 import gov.nist.csd.pm.exceptions.PMException;
 
+import org.slf4j.Logger;
+
+import static org.slf4j.LoggerFactory.getLogger;
+
 public class Server {
 //    public static void main(String[] args) {
 //        connectToServer();
@@ -28,7 +32,7 @@ public class Server {
 
             //Have the server take input from the client and echo it back
             //This should be placed in a loop that listens for a terminator text e.g. bye
-            boolean done = false;
+//            boolean done = false;
 
             while(scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -37,6 +41,9 @@ public class Server {
 //                if(line.toLowerCase().trim().equals("peace")) {
 //                    done = true;
 //                }
+                if (line.equals("exit")) {
+                	break;
+                }
                 
                 //trigger a recreation of the policy
                 try {
@@ -47,6 +54,8 @@ public class Server {
 				};
 //                policyEngine.createPolicyGraph("/PATH-FROM-HOME/input-files/demo-topo-ref/topo-ref-policy.json");
             }
+            
+            serverSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

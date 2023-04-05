@@ -153,6 +153,8 @@ public class IntentReactiveForwarding {
 																			IntentState.WITHDRAW_REQ);
 
 	private Exception error;
+	
+	private Thread serverThread;
 
 	private static final int OPERATION_TIMEOUT = 1;
 	
@@ -178,7 +180,9 @@ public class IntentReactiveForwarding {
 		packetService.requestPackets(selector.build(), PacketPriority.REACTIVE, appId);
 		log.info("$$$$$$$$$$$$$$$$ Started");
 		
-		Server.connectToServer();
+		ServerThread thread = new ServerThread();
+	    serverThread = new Thread(thread);
+	    serverThread.start();
 		log.info("$$$$$$$$$$$$$$$$ Starting SocketServer on port 9191");
 		
 //		Endpoint.publish("http://localhost:8080/policyenginecontroller", 
@@ -191,6 +195,14 @@ public class IntentReactiveForwarding {
 		packetService.removeProcessor(processor);
 		processor = null;
 		log.info("Stopped");
+		
+		try {
+			serverThread.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		log.info("$$$$$$$$$$$$$$$$ Stopping SocketServer on port 9191");
 	}
 
 	/**
