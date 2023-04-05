@@ -7,6 +7,7 @@ package org.onosproject.nifwd_combined.impl;
      import org.apache.felix.scr.annotations.ReferenceCardinality;
  */
 import org.onlab.packet.IpAddress;
+
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
@@ -79,8 +80,6 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import javax.xml.ws.Endpoint;
-
 import java.util.concurrent.ExecutionException;
 
 import java.util.concurrent.CountDownLatch;
@@ -90,6 +89,7 @@ import java.util.concurrent.TimeUnit;
 import static org.onosproject.net.intent.IntentState.*;
 
 import java.util.WeakHashMap;
+
 
 /**
  * Direction for Intent installation.
@@ -178,9 +178,12 @@ public class IntentReactiveForwarding {
 		packetService.requestPackets(selector.build(), PacketPriority.REACTIVE, appId);
 		log.info("$$$$$$$$$$$$$$$$ Started");
 		
-		Endpoint.publish("http://localhost:8080/policyenginecontroller", 
-		          new PolicyEngineController());
-		log.info("SOAP api endpoint has been published.");
+		Server.connectToServer();
+		log.info("$$$$$$$$$$$$$$$$ Starting SocketServer on port 9191");
+		
+//		Endpoint.publish("http://localhost:8080/policyenginecontroller", 
+//		          new PolicyEngineController());
+//		log.info("SOAP api endpoint has been published.");
 	}
 
 	@Deactivate
