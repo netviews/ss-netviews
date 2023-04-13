@@ -1,0 +1,82 @@
+{ 
+  "switches": [ 
+    { 
+      "name": "s1", 
+      "description": "router" 
+    }, 
+    { 
+      "name": "s2", 
+      "description": "switch" 
+    }, 
+    { 
+      "name": "s3", 
+      "description": "switch" 
+    }  
+  ], 
+  "hosts": [ 
+    { 
+      "description": "Host 1", 
+      "name": "h1", 
+      "server_type": null 
+    }, 
+    { 
+      "description": "Host 2", 
+      "name": "h2", 
+      "server_type": "HTTP" 
+    }, 
+    { 
+      "description": "Host 3", 
+      "name": "h3", 
+      "server_type": null 
+    }, 
+    { 
+      "description": "Host 4", 
+      "name": "h4", 
+      "server_type": "HTTP" 
+    } 
+  ], 
+  "links": [ 
+    { 
+      "node1": "s1", 
+      "linkopts": { 
+        "bw": 1000 
+      }, 
+      "node2": "s2" 
+    }, 
+    { 
+      "node1": "s1", 
+      "linkopts": { 
+        "bw": 1000 
+      }, 
+      "node2": "s3" 
+    }, 
+    { 
+      "node1": "s2", 
+      "linkopts": { 
+        "bw": 1000 
+      }, 
+      "node2": "h1" 
+    }, 
+    { 
+      "node1": "s2", 
+      "linkopts": { 
+        "bw": 1000 
+      }, 
+      "node2": "h2" 
+    }, 
+    { 
+      "node1": "s3", 
+      "linkopts": { 
+        "bw": 1000 
+      }, 
+      "node2": "h3" 
+    }, 
+    { 
+      "node1": "s3", 
+      "linkopts": { 
+        "bw": 1000 
+      }, 
+      "node2": "h4" 
+    } 
+  ] 
+}

@@ -25,10 +25,15 @@ import org.onlab.packet.ICMP6;
 import org.onlab.packet.TpPort;
 import org.onlab.packet.ARP;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import gov.nist.csd.pm.exceptions.PMException;
 import java.util.Arrays;
+
+//import java.net.ServerSocket;
+//import java.net.Socket;
+//import java.util.Scanner;
+
+import gov.nist.csd.pm.exceptions.PMException;
 
 import org.onosproject.core.ApplicationId;
 import org.onosproject.core.CoreService;
@@ -169,8 +174,8 @@ public class IntentReactiveForwarding {
 		policyEngine = PolicyEngine.getInstance();
 
 		
-		identityMap.createMapping("/PATH-FROM-HOME/input-filesPo/demo-topo-ref/topo-ref-info.json");
-		policyEngine.createPolicyGraph("/PATH-FROM-HOME/input-files/demo-topo-ref/topo-ref-policy.json");
+		identityMap.createMapping("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-info.json");
+		policyEngine.createPolicyGraph("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-policy.json");
                 
 
 		TrafficSelector.Builder selector = DefaultTrafficSelector.builder();
@@ -701,8 +706,61 @@ public class IntentReactiveForwarding {
 			log.info("\nIntent " + (intentService.getIntent(key).id()).toString() + ": " + key.toString() + " Installed Time: " + String.valueOf(outTime - inTime) + "\n\n");
 		}
 	}
+/*
+      public class Server {
+//    public static void main(String[] args) {
+//        connectToServer();
+//    }
+	
 
-	private PolicyEngine getPolicyEngine() {
-		return policyEngine;
-	}
+    	public static void connectToServer() {
+        //Try connect to the server on an unused port eg 9191. A successful connection will return a socket
+    	
+		try(ServerSocket serverSocket = new ServerSocket(9191)) {
+		    while (true) {
+		    
+		    
+		    Socket connectionSocket = serverSocket.accept();
+
+		    //Create Input&Outputstreams for the connection
+		    InputStream inputToServer = connectionSocket.getInputStream();
+		    OutputStream outputFromServer = connectionSocket.getOutputStream();
+
+		    Scanner scanner = new Scanner(inputToServer, "UTF-8");
+		    PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
+
+		    
+		    serverPrintOut.println("Server has been created on port 9191");
+
+		    while(scanner.hasNextLine()) {
+		        String line = scanner.nextLine();
+		        serverPrintOut.println("You entered something");
+
+		        if (line.equals("exit")) {
+		        	break;
+		        }
+		        
+		        //trigger a recreation of the policy
+		        try {
+		        	Iterable<Intent> intents = intentService.getIntents();
+		        	for (Intent intent: intents) {
+		        		intentService.withdraw(intent);
+		        	}
+				PolicyEngine.getInstance().createPolicyGraph("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-policy.json");
+			} catch (PMException e) {
+				serverPrintOut.println(e.getLocalizedMessage());
+			};
+				serverPrintOut.println("Might have changed the policy engine");
+		    }
+		    }
+		    
+		    //serverSocket.close();
+		    //scanner.close();
+		} catch (IOException e) {
+		    e.printStackTrace();
+		    serverSocket.close();
+		}
+    	}
+      }
+      */
 }
