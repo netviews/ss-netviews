@@ -61,7 +61,6 @@ public class PolicyEngine {
         log.info("\n&&& createPolicyGraph &&&\n");
         Graph tempGraph = new MemGraph();
         graph = new MemGraph();
-        removeIntents();
         try
         {
             //File file = new File("/home/ianjum/GitNetViews/netviews-code/netviews-policy-machine/src/policyInput/policySample01.json");
@@ -83,15 +82,6 @@ public class PolicyEngine {
             
 	    decider = new PReviewDecider(graph, null);
 	    //boolean decision = getPermission("h1", "h10", "tcp/9100");
-	    log.info("\n\n\n****************Test decisions on Policy Graph Creation**************\n");
-	    log.info("\nTest h1 permissions\n");
-	    log.info("\nTest tcp/22 of h1 to h2: Expected True: Actual:  " + getPermission("h1", "h2", "tcp/22"));
-	    log.info("\nTest tcp/22 of h1 to h3: Expected False: Actual:  " + getPermission("h1", "h3", "tcp/22"));
-	    log.info("\nTest tcp/22 of h1 to h4: Expected False: Actual:  " + getPermission("h1", "h4", "tcp/22"));
-	    log.info("\nTest h3 permissions\n");
-	    log.info("\nTest tcp/22 of h3 to h1: Expected False: Actual: " + getPermission("h3", "h1", "tcp/22"));
-	    log.info("\nTest tcp/22 of h3 to h2: Expected False: Actual: " + getPermission("h3", "h2", "tcp/22"));
-	    log.info("\nTest tcp/22 of h3 to h4: Expected True: Actual:  " + getPermission("h3", "h4", "tcp/22"));
 
         } catch (FileNotFoundException f){
             log.info(f.getLocalizedMessage());
@@ -114,7 +104,4 @@ public class PolicyEngine {
 	}*/
     }
     
-    public void removeIntents() {
-    
-    }
 }

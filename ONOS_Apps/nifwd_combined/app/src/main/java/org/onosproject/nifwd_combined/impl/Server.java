@@ -6,11 +6,9 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
-import org.onosproject.net.intent.IntentService;
-import org.onosproject.net.intent.Intent;
-import org.osgi.service.component.annotations.Reference;
-import org.osgi.service.component.annotations.ReferenceCardinality;
-import org.onosproject.cli.AbstractShellCommand;
+//import org.onosproject.net.intent.IntentService;
+//import org.onosproject.net.intent.Intent;
+//import org.onosproject.cli.AbstractShellCommand;
 //import org.onosproject.cli.net.IntentRemoveCommand;
 
 
@@ -18,13 +16,6 @@ import gov.nist.csd.pm.exceptions.PMException;
 
 
 public class Server {
-//    public static void main(String[] args) {
-//        connectToServer();
-//    }
-
-	//@Reference(cardinality = ReferenceCardinality.MANDATORY)
-	//protected IntentService intentService;
-	
 
     public static void connectToServer() {
         //Try connect to the server on an unused port eg 9191. A successful connection will return a socket
@@ -33,25 +24,18 @@ public class Server {
             while (true) {
             
             
-            Socket connectionSocket = serverSocket.accept();
+            	Socket connectionSocket = serverSocket.accept();
 
-            //Create Input&Outputstreams for the connection
-            InputStream inputToServer = connectionSocket.getInputStream();
-            OutputStream outputFromServer = connectionSocket.getOutputStream();
+            	//Create Input&Outputstreams for the connection
+            	InputStream inputToServer = connectionSocket.getInputStream();
+            	OutputStream outputFromServer = connectionSocket.getOutputStream();
 
-            Scanner scanner = new Scanner(inputToServer, "UTF-8");
-            PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
+            	Scanner scanner = new Scanner(inputToServer, "UTF-8");
+            	PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
 
             
-            serverPrintOut.println("Server has been created on port 9191");
+            	serverPrintOut.println("Server has been created on port 9191");
 
-            //while(scanner.hasNextLine()) {
-                //String line = scanner.nextLine();
-                serverPrintOut.println("You entered something");
-
-                //if (line.equals("exit")) {
-                	//break;
-                //}
                 
                 //trigger a recreation of the policy
                 try {
@@ -62,13 +46,22 @@ public class Server {
 			
 			serverPrintOut.println(e.getLocalizedMessage());
 		};
-		serverPrintOut.println("About to run through Intents");
 		
-		//IntentSynchronizer.removeIntentsByAppId(org.onosproject.nifwd_combined);
+		/*
+		* This block of code was an attempt to delete Intents from inside of ONOS. AbstractShellCommand and IntentRemoveCommand
+		* both have methods that will remove intents, however they will not compile as either they are not static methods
+		* or the access to the methods are not allowed. The IntentService can be retrieved from AbstractShellCommand and it does
+		* have the correct instance of IntentService.
+		*/
 		
-		IntentService intentService = AbstractShellCommand.get(IntentService.class);
+		/*
+		 serverPrintOut.println("About to run through Intents");
 		
-    		if (intentService != null) {
+		 //IntentSynchronizer.removeIntentsByAppId(org.onosproject.nifwd_combined);
+		
+		 IntentService intentService = AbstractShellCommand.get(IntentService.class);
+		
+    		 if (intentService != null) {
 			serverPrintOut.println("Intent count: " + intentService.getIntentCount());
 			Iterable<Intent> intents = intentService.getIntents();
 			//IntentRemoveCommand.execute();
@@ -90,15 +83,13 @@ public class Server {
 		}
 		
 		
+		
 		serverPrintOut.println("Might have changed the policy engine");
-            //}
+		*/
             }
-            
-            //serverSocket.close();
-            //scanner.close();
         } catch (IOException e) {
             e.printStackTrace();
-            //serverSocket.close();
+            
         }
     }
     
