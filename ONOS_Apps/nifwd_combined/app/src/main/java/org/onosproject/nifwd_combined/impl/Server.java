@@ -5,7 +5,8 @@ import java.io.*;
 
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
+// Don't need the scanner if we are not taking input to the server from the client
+//import java.util.Scanner;
 //import org.onosproject.net.intent.IntentService;
 //import org.onosproject.net.intent.Intent;
 //import org.onosproject.cli.AbstractShellCommand;
@@ -27,10 +28,12 @@ public class Server {
             	Socket connectionSocket = serverSocket.accept();
 
             	//Create Input&Outputstreams for the connection
-            	InputStream inputToServer = connectionSocket.getInputStream();
+            	// Don't really need the inputToServer thing anymore because the client never sends anything
+            	// it just triggers this code by connecting and then closes the connection
+            	//InputStream inputToServer = connectionSocket.getInputStream();
             	OutputStream outputFromServer = connectionSocket.getOutputStream();
 
-            	Scanner scanner = new Scanner(inputToServer, "UTF-8");
+            	//Scanner scanner = new Scanner(inputToServer, "UTF-8");
             	PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
 
             
