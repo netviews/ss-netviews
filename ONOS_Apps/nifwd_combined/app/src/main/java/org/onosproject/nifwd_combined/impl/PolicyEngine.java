@@ -58,8 +58,12 @@ public class PolicyEngine {
     }
     
     public void createPolicyGraph(String filePath) throws FileNotFoundException,IOException, PMException{
-        log.info("\n&&& createPolicyGraph &&&\n");
+        // This method is now used both when the app is first activated and when changing the
+    	// policy after that, so we changed it to use a tempGraph so that there will still be
+    	// policy in place until the new graph is ready
+    	log.info("\n&&& createPolicyGraph &&&\n");
         Graph tempGraph = new MemGraph();
+        // TODO: why would you do this next line? It defeats the purpose of having the tempGraph
         graph = new MemGraph();
         try
         {

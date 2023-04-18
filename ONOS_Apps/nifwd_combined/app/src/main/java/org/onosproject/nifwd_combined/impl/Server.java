@@ -27,13 +27,9 @@ public class Server {
             
             	Socket connectionSocket = serverSocket.accept();
 
-            	//Create Input&Outputstreams for the connection
-            	// Don't really need the inputToServer thing anymore because the client never sends anything
-            	// it just triggers this code by connecting and then closes the connection
-            	//InputStream inputToServer = connectionSocket.getInputStream();
+            	//Create Input&Outputstreams for the connection (decided we didn't really need the input stream)
             	OutputStream outputFromServer = connectionSocket.getOutputStream();
 
-            	//Scanner scanner = new Scanner(inputToServer, "UTF-8");
             	PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
 
             
@@ -42,36 +38,34 @@ public class Server {
                 
                 //trigger a recreation of the policy
                 try {
-                
-			PolicyEngine.getInstance().createPolicyGraph("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-policy.json");
-			
-		} catch (PMException e) {
-			
-			serverPrintOut.println(e.getLocalizedMessage());
-		};
+                	// TODO: Fix hard-coded paths    
+                	PolicyEngine.getInstance().createPolicyGraph("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-policy.json");
+            	} catch (PMException e) {
+            		serverPrintOut.println(e.getLocalizedMessage());
+        		};
 		
-		/*
-		* This block of code was an attempt to delete Intents from inside of ONOS. AbstractShellCommand and IntentRemoveCommand
-		* both have methods that will remove intents, however they will not compile as either they are not static methods
-		* or the access to the methods are not allowed. The IntentService can be retrieved from AbstractShellCommand and it does
-		* have the correct instance of IntentService.
-		*/
+        		/*
+        		 * This block of code was an attempt to delete Intents from inside of ONOS. AbstractShellCommand and IntentRemoveCommand
+        		 * both have methods that will remove intents, however they will not compile as either they are not static methods
+        		 * or the access to the methods are not allowed. The IntentService can be retrieved from AbstractShellCommand and it does
+        		 * have the correct instance of IntentService.
+        		 */
 		
-		/*
-		 serverPrintOut.println("About to run through Intents");
+        		/*
+        		 serverPrintOut.println("About to run through Intents");
 		
-		 //IntentSynchronizer.removeIntentsByAppId(org.onosproject.nifwd_combined);
+		 		//IntentSynchronizer.removeIntentsByAppId(org.onosproject.nifwd_combined);
 		
-		 IntentService intentService = AbstractShellCommand.get(IntentService.class);
+		 		IntentService intentService = AbstractShellCommand.get(IntentService.class);
 		
-    		 if (intentService != null) {
-			serverPrintOut.println("Intent count: " + intentService.getIntentCount());
-			Iterable<Intent> intents = intentService.getIntents();
-			//IntentRemoveCommand.execute();
-			//IntentRemoveCommand command = new IntentRemoveCommand();
+    		 	if (intentService != null) {
+					serverPrintOut.println("Intent count: " + intentService.getIntentCount());
+					Iterable<Intent> intents = intentService.getIntents();
+					//IntentRemoveCommand.execute();
+					//IntentRemoveCommand command = new IntentRemoveCommand();
 			
 			
-               	serverPrintOut.println("Intent Service: " + intentService);
+               		serverPrintOut.println("Intent Service: " + intentService);
                 
                 	for (Intent intent : intents) {
                     		serverPrintOut.println("Intent ID: " + intent.id());
@@ -80,15 +74,14 @@ public class Server {
                 	}
                 	serverPrintOut.println("Intent count: " + intentService.getIntentCount());
                 	
-		}
-		else {
-			serverPrintOut.println("Intents are still null");
-		}
+				} else {
+					serverPrintOut.println("Intents are still null");
+				}
+			
 		
 		
-		
-		serverPrintOut.println("Might have changed the policy engine");
-		*/
+				serverPrintOut.println("Might have changed the policy engine");
+        		 */
             }
         } catch (IOException e) {
             e.printStackTrace();
