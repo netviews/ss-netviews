@@ -44,12 +44,14 @@ public class PolicyEngine {
     private final Logger log = getLogger(getClass());
     Decider decider;
 
+    //Singleton instance of the PolicyEngine
     private static PolicyEngine policyEngine = null;
     
     private PolicyEngine() {
     	// None
     }
     
+    //Retrieve the instance of the PolicyEngine
     public static synchronized PolicyEngine getInstance() {
     	if (policyEngine == null) {
     		policyEngine = new PolicyEngine();
@@ -71,6 +73,7 @@ public class PolicyEngine {
             fis.close();
             String json = new String(data, "UTF-8");
             
+            //Displays the policy in the ONOS server display whenever the policy gets created
             log.info("\n\n\n************Policy************\n");
             log.info(json);
             log.info("\n\n\n************End Policy**************\n");

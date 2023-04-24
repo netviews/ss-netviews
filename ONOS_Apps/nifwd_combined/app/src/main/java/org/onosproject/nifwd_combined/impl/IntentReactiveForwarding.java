@@ -185,9 +185,10 @@ public class IntentReactiveForwarding {
 		packetService.requestPackets(selector.build(), PacketPriority.REACTIVE, appId);
 		log.info("$$$$$$$$$$$$$$$$ Started");
 		
+		//Create a thread to host a socket server and start it.
 		ServerThread thread = new ServerThread();
-	    serverThread = new Thread(thread);
-	    serverThread.start();
+	    	serverThread = new Thread(thread);
+	    	serverThread.start();
 		log.info("$$$$$$$$$$$$$$$$ Starting SocketServer on port 9191");
 		
 //		Endpoint.publish("http://localhost:8080/policyenginecontroller", 
