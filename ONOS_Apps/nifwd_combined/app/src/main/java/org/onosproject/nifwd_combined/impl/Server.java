@@ -5,11 +5,20 @@ import java.io.*;
 
 import java.net.ServerSocket;
 import java.net.Socket;
+<<<<<<< HEAD
 import java.util.Scanner;
 import org.onosproject.net.intent.IntentService;
 import org.onosproject.net.intent.IntentState;
 import org.onosproject.net.intent.Intent;
 import org.onosproject.cli.AbstractShellCommand;
+=======
+// Don't need the scanner if we are not taking input to the server from the client
+//import java.util.Scanner;
+//import org.onosproject.net.intent.IntentService;
+//import org.onosproject.net.intent.Intent;
+//import org.onosproject.cli.AbstractShellCommand;
+//import org.onosproject.cli.net.IntentRemoveCommand;
+>>>>>>> 3e74f1fa8d6a9b24ac229e4a220b31ac1aa3b9dd
 
 
 import gov.nist.csd.pm.exceptions.PMException;
@@ -25,11 +34,9 @@ public class Server {
             	//Accept connnections to the server
             	Socket connectionSocket = serverSocket.accept();
 
-            	//Create Input&Outputstreams for the connection
-            	InputStream inputToServer = connectionSocket.getInputStream();
+            	//Create Input&Outputstreams for the connection (decided we didn't really need the input stream)
             	OutputStream outputFromServer = connectionSocket.getOutputStream();
 
-            	Scanner scanner = new Scanner(inputToServer, "UTF-8");
             	PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
 
             
