@@ -7,6 +7,7 @@ package org.onosproject.nifwd_combined.impl;
      import org.apache.felix.scr.annotations.ReferenceCardinality;
  */
 import org.onlab.packet.IpAddress;
+
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
@@ -24,10 +25,15 @@ import org.onlab.packet.ICMP6;
 import org.onlab.packet.TpPort;
 import org.onlab.packet.ARP;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import gov.nist.csd.pm.exceptions.PMException;
 import java.util.Arrays;
+
+//import java.net.ServerSocket;
+//import java.net.Socket;
+//import java.util.Scanner;
+
+import gov.nist.csd.pm.exceptions.PMException;
 
 import org.onosproject.core.ApplicationId;
 import org.onosproject.core.CoreService;
@@ -78,6 +84,7 @@ import org.onosproject.net.intent.IntentException;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
+
 import java.util.concurrent.ExecutionException;
 
 import java.util.concurrent.CountDownLatch;
@@ -87,6 +94,7 @@ import java.util.concurrent.TimeUnit;
 import static org.onosproject.net.intent.IntentState.*;
 
 import java.util.WeakHashMap;
+
 
 /**
  * Direction for Intent installation.
@@ -134,7 +142,7 @@ public class IntentReactiveForwarding {
 
 //	@Reference(cardinality = ReferenceCardinality.MANDATORY)
 //	protected NetviewsPolicy netViews;
-	private PolicyEngine netViews = new PolicyEngine();
+	private PolicyEngine netViews = PolicyEngine.getInstance();
 
 	private ReactivePacketProcessor processor = new ReactivePacketProcessor();
 	private ApplicationId appId;
@@ -150,9 +158,11 @@ public class IntentReactiveForwarding {
 																			IntentState.WITHDRAW_REQ);
 
 	private Exception error;
+	
+	private Thread serverThread;
 
 	private static final int OPERATION_TIMEOUT = 1;
-
+	
 	@Activate
 	public void activate() throws Exception {
 		appId = coreService.registerApplication("org.onosproject.nifwd_combined");
@@ -161,11 +171,11 @@ public class IntentReactiveForwarding {
 
 		// FIXME: Hard coded paths
 		identityMap = new IdentityMap();
-		policyEngine = new PolicyEngine();
+		policyEngine = PolicyEngine.getInstance();
 
 		
-		identityMap.createMapping("/PATH-FROM-HOME/input-files/demo-topo-ref/topo-ref-info.json");
-		policyEngine.createPolicyGraph("/PATH-FROM-HOME/input-files/demo-topo-ref/topo-ref-policy.json");
+		identityMap.createMapping("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-info.json");
+		policyEngine.createPolicyGraph("/home/noah/netviews/ss-netviews/input-files/med-topo-ref/med-topo-policy.json");
                 
 
 		TrafficSelector.Builder selector = DefaultTrafficSelector.builder();
@@ -174,6 +184,16 @@ public class IntentReactiveForwarding {
 
 		packetService.requestPackets(selector.build(), PacketPriority.REACTIVE, appId);
 		log.info("$$$$$$$$$$$$$$$$ Started");
+		
+		//Create a thread to host a socket server and start it.
+		ServerThread thread = new ServerThread();
+	    	serverThread = new Thread(thread);
+	    	serverThread.start();
+		log.info("$$$$$$$$$$$$$$$$ Starting SocketServer on port 9191");
+		
+//		Endpoint.publish("http://localhost:8080/policyenginecontroller", 
+//		          new PolicyEngineController());
+//		log.info("SOAP api endpoint has been published.");
 	}
 
 	@Deactivate
@@ -181,6 +201,14 @@ public class IntentReactiveForwarding {
 		packetService.removeProcessor(processor);
 		processor = null;
 		log.info("Stopped");
+		
+		try {
+			serverThread.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		log.info("$$$$$$$$$$$$$$$$ Stopping SocketServer on port 9191");
 	}
 
 	/**

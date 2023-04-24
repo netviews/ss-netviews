@@ -1,0 +1,91 @@
+{ 
+    "nodes": [
+    
+      { 
+        "name": "role", 
+        "type": "PC", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "h1", 
+        "type": "U", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "h2", 
+        "type": "O", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "h3", 
+        "type": "U", 
+        "properties": {} 
+      },  
+      { 
+        "name": "h4", 
+        "type": "O", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "HRU", 
+        "type": "UA", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "Other", 
+        "type": "UA", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "Dev", 
+        "type": "OA", 
+        "properties": {} 
+      }, 
+      { 
+        "name": "HR", 
+        "type": "OA", 
+        "properties": {} 
+      }
+    ], 
+     "assignments": [ 
+      { 
+        "source": "h1", 
+        "target": "HRU" 
+      }, 
+      { 
+        "source": "h3", 
+        "target": "Other" 
+      }, 
+      { 
+        "source": "h2", 
+        "target": "Dev" 
+      }, 
+      { 
+        "source": "h4", 
+        "target": "HR" 
+      }, 
+      { 
+        "source": "HRU", 
+        "target": "role" 
+      }, 
+      { 
+        "source": "Dev", 
+        "target": "role" 
+      }, 
+      { 
+        "source": "Other", 
+        "target": "role" 
+      }, 
+      { 
+        "source": "HR", 
+        "target": "role" 
+      }  
+    ], 
+    "associations": [ 
+      {   
+        "source": "HRU", 
+        "target": "Dev", 
+        "operations": ["tcp/22", "arp", "icmp"] 
+      }
+    ] 
+} 

@@ -10,6 +10,7 @@ import gov.nist.csd.pm.pip.graph.MemGraph;
 import gov.nist.csd.pm.pip.graph.model.nodes.Node;
 import gov.nist.csd.pm.pip.graph.model.relationships.Assignment;
 import gov.nist.csd.pm.pip.graph.model.relationships.Association;
+import org.onosproject.nifwd_combined.impl.IntentReactiveForwarding;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -43,8 +44,29 @@ public class PolicyEngine {
     private final Logger log = getLogger(getClass());
     Decider decider;
 
+    //Singleton instance of the PolicyEngine
+    private static PolicyEngine policyEngine = null;
+    
+    private PolicyEngine() {
+    	// None
+    }
+    
+    //Retrieve the instance of the PolicyEngine
+    public static synchronized PolicyEngine getInstance() {
+    	if (policyEngine == null) {
+    		policyEngine = new PolicyEngine();
+    	}
+    	return policyEngine;
+    }
+    
     public void createPolicyGraph(String filePath) throws FileNotFoundException,IOException, PMException{
-        log.info("\n&&& createPolicyGraph &&&\n");
+        // This method is now used both when the app is first activated and when changing the
+    	// policy after that, so we changed it to use a tempGraph so that there will still be
+    	// policy in place until the new graph is ready
+    	log.info("\n&&& createPolicyGraph &&&\n");
+        Graph tempGraph = new MemGraph();
+        // TODO: why would you do this next line? It defeats the purpose of having the tempGraph
+        graph = new MemGraph();
         try
         {
             //File file = new File("/home/ianjum/GitNetViews/netviews-code/netviews-policy-machine/src/policyInput/policySample01.json");
@@ -54,9 +76,16 @@ public class PolicyEngine {
             fis.read(data);
             fis.close();
             String json = new String(data, "UTF-8");
+            
+            //Displays the policy in the ONOS server display whenever the policy gets created
+            log.info("\n\n\n************Policy************\n");
+            log.info(json);
+            log.info("\n\n\n************End Policy**************\n");
 
 
-            GraphSerializer.fromJson(graph, json);
+            GraphSerializer.fromJson(tempGraph, json);
+            
+            graph = tempGraph;
             
 	    decider = new PReviewDecider(graph, null);
 	    //boolean decision = getPermission("h1", "h10", "tcp/9100");
@@ -71,7 +100,7 @@ public class PolicyEngine {
         }
 
     }
-
+    
     public boolean getPermission(String subject, String object, String action) throws IOException, PMException{        
         Set<String> permissions = decider.list(subject, "0" , object);
         return permissions.contains(action);
@@ -81,53 +110,5 @@ public class PolicyEngine {
 		return false;
 	}*/
     }
-
-    /**
-     * Method to add a new policy to the policy graph. This method takes
-     * a String where each line of the String is in 1 of 3 formats: 
-     * ' node <name> <type> <properties>' to add a node
-     * ' assign <child> <parent>' to add an assignment
-     * ' assoc <ua> <target>' to add an association
-     * 
-     * @param newPolicyInfo is a String in the above format
-     */
-    public void addToPolicyGraph(String newPolicyInfo) throws FileNotFoundException {
-        //String format: node <name> <type> <properties>
-
-        GraphSerializer.deserialize(graph, newPolicyInfo);
-
-        decider = new PReviewDecider(graph, null);
-    }
-
-    /**
-     * Method for deleting a node, association, and assignment.
-     * One of each type may be provided.
-     * 
-     * @param node the name of the node to be deleted (or null)
-     * @param assoc the association to be deleted (or null)
-     * @param assign the assignment to be deleted (or null)
-     */
-    public void deleteGraphElement(String node, String assoc, String assign) throws Exception {
-        //String format: node <name> <type> <properties>
-
-        // try {
-            if (node != null) {
-                graph.deleteNode();
-            } 
-            if (assoc != null) {
-                graph.dissociate(userAssoc);
-            }
     
-            if (assign != null) {
-                graph.deassign(assign);
-            }
-
-            decider = new PReviewDecider(graph, null);
-
-        // } catch (FileNotFoundException e) {
-
-        // } 
-        
-    }
-
 }
